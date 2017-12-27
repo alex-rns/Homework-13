@@ -1,0 +1,73 @@
+.navbar
+  padding-top: 25px
+  left: 0
+  right: 0
+  position: absolute
+  z-index: 50
+
+  &-toggler
+    border-color: $accent-color-second
+
+.navbar-nav
+  margin-right: 40px
+  font: 400 14px/30px Montserrat, serif
+  .nav-item
+    margin: 0 2px
+    .nav-link
+      color: #fff
+
+.navbar-light .navbar-toggler
+  transition: $transition
+  border-color: $accent-color-second
+  &:hover
+    border: 1px solid $accent-color
+
+.navbar-light .navbar-toggler-icon
+  transition: $transition
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(61, 182, 231, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E")
+  &:hover
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(239, 150, 26, 1)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 6h26M4 16h26M4 26h26'/%3E%3C/svg%3E")
+
+.navbar-light .navbar-nav .show > .nav-link, .navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover
+  color: $accent-color
+
+.top-contacts
+  .top-contacts
+    &-tel
+      font: 400 15px/36px Montserrat, serif
+      letter-spacing: 0.75px
+      color: #fff
+      &:hover
+        color: $accent-color
+      i
+        font-size: 18px
+        margin-right: 8px
+        color: $accent-color-second
+    &-mail
+      height: 32px
+      width: 32px
+      text-align: center
+      display: inline-block
+      background: $accent-color-second
+      border-radius: 50%
+      padding-top: 4px
+      margin-left: 20px
+      i
+        font-size: 18px
+        color: #fff
+      &:hover
+        background: $accent-color
+
+.dropdown-menu
+  font: 400 14px/30px Montserrat, serif
+  background:  rgba(0, 0, 0, 0.8)
+  a
+    color: #fff
+
+.dropdown-toggle:after
+  display: none
+
+.dropdown-item:hover
+  background: $accent-color
+
+
