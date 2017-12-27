@@ -10665,7 +10665,10 @@ button:focus {
 
 .about-us-section p {
   max-width: 680px;
-  margin: 0 auto; }
+  margin: 0 auto 30px; }
+
+.about-us-section .button-main {
+  margin-bottom: 30px; }
 
 .navbar {
   padding-top: 25px;
@@ -10838,6 +10841,27 @@ button:focus {
 
 .slick-dots li.slick-active button:before {
   color: #40d53a; }
+
+.about-carousel {
+  border-top: 1px red solid;
+  padding-top: 60px;
+  margin-top: 30px; }
+
+.button-main {
+  background: #40d53a;
+  color: #fff;
+  font: 400 13px/30px Montserrat, serif;
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: -0.13px;
+  padding: 14px 25px;
+  -webkit-border-radius: 30px;
+          border-radius: 30px;
+  border: 2px solid #40d53a; }
+  .button-main:hover {
+    background: #fff;
+    border-color: #40d53a;
+    color: #40d53a; }
 
 /* Large Devices, Wide Screens */
 @media only screen and (max-width: 1200px) {

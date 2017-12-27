@@ -35,6 +35,13 @@ $(function() {
 
     });
 
+	$('#about-carousel').slick({
+        autoplay: true,
+        arrows: true,
+        infinite: true,
+        slidesToShow: 5
+    });
+
 	//Bootstrap dropdown on hover
 
     $('.dropdown').hover(function() {
