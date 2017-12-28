@@ -40,7 +40,45 @@
 
 
 //ABOUT-CAROUSEL
+
 .about-carousel
-  border-top: 1px red solid
-  padding-top: 60px
-  margin-top: 30px
+  border-top: 1px solid $gray
+  padding: 60px 0 95px
+  margin-top: 70px
+
+  .slick-slide
+    img
+      transition: $transition
+      opacity: 0.25
+      margin: 0 auto
+      &:hover
+        opacity: 1
+
+  .slick-next, .slick-prev
+    line-height: 40px
+    height: 45px
+
+  .slick-track
+    width: 100%
+
+  .slick-prev
+    padding-right: 25px
+
+  .slick-next
+    padding-left: 5px
+
+  .slick-prev:hover:before, .slick-prev:focus:before
+    content: url("../../../images/carousel-arrow-left-active.png")
+
+  .slick-next:hover:before, .slick-next:focus:before
+    content: url("../../../images/carousel-arrow-right-active.png")
+
+  .slick-prev:before
+    content: url("../../../images/carousel-arrow-left.png")
+
+  .slick-next:before
+    content: url("../../../images/carousel-arrow-right.png")
+
+
+
+

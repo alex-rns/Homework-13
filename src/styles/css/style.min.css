@@ -10843,9 +10843,34 @@ button:focus {
   color: #40d53a; }
 
 .about-carousel {
-  border-top: 1px red solid;
-  padding-top: 60px;
-  margin-top: 30px; }
+  border-top: 1px solid #e7eff1;
+  padding: 60px 0 95px;
+  margin-top: 70px; }
+  .about-carousel .slick-slide img {
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    opacity: 0.25;
+    margin: 0 auto; }
+    .about-carousel .slick-slide img:hover {
+      opacity: 1; }
+  .about-carousel .slick-next, .about-carousel .slick-prev {
+    line-height: 40px;
+    height: 45px; }
+  .about-carousel .slick-track {
+    width: 100%; }
+  .about-carousel .slick-prev {
+    padding-right: 25px; }
+  .about-carousel .slick-next {
+    padding-left: 5px; }
+  .about-carousel .slick-prev:hover:before, .about-carousel .slick-prev:focus:before {
+    content: url("../../../images/carousel-arrow-left-active.png"); }
+  .about-carousel .slick-next:hover:before, .about-carousel .slick-next:focus:before {
+    content: url("../../../images/carousel-arrow-right-active.png"); }
+  .about-carousel .slick-prev:before {
+    content: url("../../../images/carousel-arrow-left.png"); }
+  .about-carousel .slick-next:before {
+    content: url("../../../images/carousel-arrow-right.png"); }
 
 .button-main {
   background: #40d53a;
@@ -10961,6 +10986,37 @@ button:focus {
 @media only screen and (max-width: 480px) {
   .top-contacts {
     display: none; } }
+
+@media only screen and (max-width: 320px) {
+  /**/ }
+
+@media only screen and (max-width: 1240px) {
+  .about-carousel {
+    width: 90%; }
+    .about-carousel .slick-prev {
+      padding-right: 0; }
+    .about-carousel .slick-next {
+      padding-left: 0; } }
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1200px) {
+  /**/ }
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px) {
+  /**/ }
+
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+  /**/ }
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 576px) {
+  /**/ }
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width: 480px) {
+  /**/ }
 
 @media only screen and (max-width: 320px) {
   /**/ }
