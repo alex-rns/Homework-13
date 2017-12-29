@@ -5,7 +5,6 @@ $(function() {
     //WELCOME-CAROUSEL
 
 	$('#welcome-carousel').slick({
-        lazyLoad: 'ondemand',
         arrows: false,
         dots: true,
         infinite: true,

@@ -10646,6 +10646,12 @@ h3 {
   letter-spacing: -1.6px;
   padding: 95px 0 40px; }
 
+h4 {
+  color: #343a3b;
+  font: 700 17px/33px Montserrat, serif;
+  text-transform: uppercase;
+  letter-spacing: -0.85px; }
+
 p {
   color: #838b8c; }
 
@@ -10660,15 +10666,41 @@ a:hover {
 button:focus {
   outline: none; }
 
+.gray-bg {
+  background: #e7eff1; }
+
 .banner-home-page {
   padding-bottom: 160px; }
 
 .about-us-section p {
+  padding: 0 15px;
   max-width: 680px;
   margin: 0 auto 30px; }
 
 .about-us-section .button-main {
   margin-bottom: 30px; }
+
+.middle-circle {
+  margin-bottom: 30px; }
+
+.boost-business {
+  padding: 15px 30px;
+  background: #575d5d; }
+  .boost-business p {
+    margin: 0;
+    color: #fff;
+    font: 400 20px Domine, serif;
+    letter-spacing: -0.5px; }
+
+.card-block {
+  padding: 25px;
+  background: #ef961a; }
+  .card-block h4 {
+    color: #fff;
+    letter-spacing: 0.2px; }
+  .card-block p {
+    color: #ffffff;
+    font: 400 15px/26px Domine, serif; }
 
 .navbar {
   padding-top: 25px;
@@ -10799,6 +10831,31 @@ button:focus {
 .icon-banking {
   background: url("../../../images/icon-banking.png") 50% 50% no-repeat; }
 
+.icon-features:before {
+  content: "";
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  margin-top: 10px; }
+
+.icon-features-right:before {
+  right: 0; }
+
+.icon-features-left:before {
+  left: 0; }
+
+.icon-features-support:before {
+  background: url("../../../images/icon-support.png") 50% 50% no-repeat; }
+
+.icon-features-security:before {
+  background: url("../../../images/icon-security.png") 50% 50% no-repeat; }
+
+.icon-features-business-boosting:before {
+  background: url("../../../images/icon-business-boosting.png") 50% 50% no-repeat; }
+
+.icon-features-creative-process:before {
+  background: url("../../../images/icon-creative-process.png") 50% 50% no-repeat; }
+
 .link-industry {
   background: #3db6e7;
   display: block;
@@ -10873,13 +10930,14 @@ button:focus {
     content: url("../../../images/carousel-arrow-right.png"); }
 
 .button-main {
+  display: inline-block;
   background: #40d53a;
   color: #fff;
   font: 400 13px/30px Montserrat, serif;
   font-size: 13px;
   text-transform: uppercase;
   letter-spacing: -0.13px;
-  padding: 14px 25px;
+  padding: 6px 27px;
   -webkit-border-radius: 30px;
           border-radius: 30px;
   border: 2px solid #40d53a; }
@@ -10887,6 +10945,50 @@ button:focus {
     background: #fff;
     border-color: #40d53a;
     color: #40d53a; }
+
+.button-card {
+  background: none; }
+
+.circle-for-logo {
+  margin: 0 auto;
+  width: 130px;
+  height: 130px;
+  background: #fff;
+  -webkit-box-shadow: 0 0 65px #d6e4e7;
+          box-shadow: 0 0 65px #d6e4e7;
+  -webkit-border-radius: 50%;
+          border-radius: 50%; }
+
+.features-item-left {
+  padding-right: 55px; }
+
+.features-item-right {
+  padding-left: 55px; }
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1200px) {
+  /**/ }
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px) {
+  /**/ }
+
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+  h3 {
+    font: 700 28px/30px Montserrat, serif;
+    padding: 60px 0 30px; } }
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 576px) {
+  /**/ }
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width: 480px) {
+  /**/ }
+
+@media only screen and (max-width: 320px) {
+  /**/ }
 
 /* Large Devices, Wide Screens */
 @media only screen and (max-width: 1200px) {
@@ -11004,7 +11106,9 @@ button:focus {
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width: 992px) {
-  /**/ }
+  .about-carousel {
+    margin-top: 30px;
+    padding: 40px 0 15px; } }
 
 /* Small Devices, Tablets */
 @media only screen and (max-width: 768px) {
@@ -11013,6 +11117,84 @@ button:focus {
 /* Extra Small Devices, Phones */
 @media only screen and (max-width: 576px) {
   /**/ }
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width: 480px) {
+  /**/ }
+
+@media only screen and (max-width: 320px) {
+  /**/ }
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1200px) {
+  .middle-circle {
+    margin-bottom: 70px; } }
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px) {
+  .middle-circle {
+    margin-bottom: 90px; }
+  .circle-for-logo {
+    width: 100px;
+    height: 100px; } }
+
+/* Small Devices, Tablets */
+@media only screen and (max-width: 767px) {
+  .middle-circle {
+    display: none; }
+  .features-item-left {
+    margin-bottom: 48px;
+    text-align: left;
+    padding-right: 0;
+    padding-left: 55px; }
+  .icon-features-right:before {
+    left: 0; }
+  .boost-business p, .boost-business a {
+    margin: 5px auto; } }
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 576px) {
+  .our-features-section {
+    padding: 0 15px; } }
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width: 480px) {
+  /**/ }
+
+@media only screen and (max-width: 320px) {
+  /**/ }
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1200px) {
+  .middle-circle {
+    margin-bottom: 70px; } }
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px) {
+  .middle-circle {
+    margin-bottom: 90px; }
+  .circle-for-logo {
+    width: 100px;
+    height: 100px; } }
+
+/* Small Devices, Tablets */
+@media only screen and (max-width: 767px) {
+  .middle-circle {
+    display: none; }
+  .features-item-left {
+    margin-bottom: 48px;
+    text-align: left;
+    padding-right: 0;
+    padding-left: 55px; }
+  .icon-features-right:before {
+    left: 0; }
+  .boost-business p, .boost-business a {
+    margin: 5px auto; } }
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 576px) {
+  .our-features-section {
+    padding: 0 15px; } }
 
 /* Custom, iPhone Retina */
 @media only screen and (max-width: 480px) {
