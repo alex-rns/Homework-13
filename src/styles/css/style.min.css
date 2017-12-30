@@ -10837,20 +10837,26 @@ button:focus {
   .card-block h4 {
     color: #fff;
     letter-spacing: 0.2px; }
+    .card-block h4:hover {
+      text-decoration: underline; }
   .card-block p {
     color: #ffffff;
     font: 400 15px/26px Domine, serif; }
 
-.card-slider .card-img-top {
-  background: rgba(0, 0, 0, 0.8); }
+.card-slider {
+  position: relative; }
+  .card-slider .card-img-top {
+    background: rgba(0, 0, 0, 0.8); }
+  .card-slider .card-block {
+    border: 1px solid #dae5e8;
+    border-top: none; }
+    .card-slider .card-block h4 {
+      color: #343a3b; }
+    .card-slider .card-block p {
+      color: #838b8c; }
 
-.card-slider .card-block {
-  border: 1px solid #dae5e8;
-  border-top: none; }
-  .card-slider .card-block h4 {
-    color: #343a3b; }
-  .card-slider .card-block p {
-    color: #838b8c; }
+.projects-wrapper {
+  margin-bottom: 45px; }
 
 .navbar {
   padding-top: 25px;
@@ -11101,7 +11107,7 @@ button:focus {
   position: absolute;
   border-color: #ef961a;
   margin: 15px;
-  padding: 0 27px; }
+  padding: 0 15px; }
   .button-card:hover {
     background: #ef961a;
     border-color: #ef961a;
