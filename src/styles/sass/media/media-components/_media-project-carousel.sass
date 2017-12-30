@@ -1,0 +1,55 @@
+@import "../../components/variables"
+
+
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px)
+  .project-slider-item
+    img
+      max-height: 239px
+  .project-carousel
+    .slick-dots
+      bottom: 180px
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px)
+  .project-carousel
+    margin-top: 30px
+    .slick-dots
+      bottom: 160px
+    li
+      button:before
+        width: 17px
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px)
+  .project-slider-item
+    img
+      max-height: 200px
+  .project-carousel
+    .slick-dots
+      bottom: 180px
+    li
+      button:before
+        width: 16px
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 576px)
+  /**/
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 480px)
+  .project-slider-item
+    img
+      max-height: 147px
+  .project-carousel
+    .slick-dots
+      bottom: 240px
+
+@media only screen and (max-width : 320px)
+  .project-slider-item
+    img
+      max-height: 117px
+  .project-carousel
+    .slick-dots
+      bottom: 260px
