@@ -10627,8 +10627,6 @@ body {
       -ms-flex-direction: column;
           flex-direction: column;
   font: 400 15px/28px "Domine", sans-serif; }
-  body p {
-    color: #838b8c; }
 
 .wrapper {
   -webkit-box-flex: 1;
@@ -10640,6 +10638,7 @@ h2 {
   font: 400 16px Montserrat, serif; }
 
 h3 {
+  text-align: center;
   text-transform: uppercase;
   font: 700 32px/33px Montserrat, serif;
   color: #343a3b;
@@ -10675,10 +10674,7 @@ button:focus {
 .about-us-section p {
   padding: 0 15px;
   max-width: 680px;
-  margin: 0 auto 30px; }
-
-.about-us-section .button-main {
-  margin-bottom: 30px; }
+  margin: 0 auto; }
 
 .middle-circle {
   margin-bottom: 30px; }
@@ -10716,8 +10712,74 @@ button:focus {
     .card-slider .card-block p {
       color: #838b8c; }
 
-.projects-wrapper {
-  margin-bottom: 45px; }
+.services-section {
+  background: #fffaf3; }
+  .services-section h3 {
+    padding-bottom: 55px; }
+
+.services-item {
+  padding: 70px 25px 0; }
+
+.icon-business-consultation:hover:before {
+  background: url("../../../images/icon-business-consultation-active.png") 50% 50% no-repeat; }
+
+.icon-boost-local-business:hover:before {
+  background: url("../../../images/icon-boost-local-business-active.png") 50% 50% no-repeat; }
+
+.icon-accounting:hover:before {
+  background: url("../../../images/icon-accounting-active.png") 50% 50% no-repeat; }
+
+.testimonials-section {
+  padding-bottom: 70px;
+  background: #3db6e7;
+  font: 400 15px/28px  Domine, serif; }
+  .testimonials-section .container {
+    position: relative; }
+    .testimonials-section .container:before {
+      content: '';
+      background: url("../../../images/quote-big-icon.png");
+      position: absolute;
+      left: 0;
+      width: 162px;
+      height: 132px; }
+  .testimonials-section p {
+    color: #fff; }
+  .testimonials-section .blockquote-text {
+    position: relative;
+    color: #ddf8ff;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 80px 0 20px; }
+    .testimonials-section .blockquote-text:before {
+      content: '';
+      width: 17px;
+      height: 2px;
+      background-color: #fff;
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      -webkit-transform: translateX(-50%);
+          -ms-transform: translateX(-50%);
+              transform: translateX(-50%); }
+    .testimonials-section .blockquote-text:after {
+      content: '';
+      background: url("../../../images/quote-icon.png");
+      position: absolute;
+      right: 0;
+      bottom: 0;
+      width: 30px;
+      height: 22px; }
+
+.blockquote-client-name {
+  padding-top: 25px;
+  font: 700 14px/22px Montserrat, serif;
+  text-transform: uppercase;
+  letter-spacing: 0.14px;
+  margin: 0; }
+
+.blockquote-thumb-nav img {
+  width: 55px;
+  height: 54px; }
 
 .navbar {
   padding-top: 25px;
@@ -10873,6 +10935,22 @@ button:focus {
 .icon-features-creative-process:before {
   background: url("../../../images/icon-creative-process.png") 50% 50% no-repeat; }
 
+.icon-services:before {
+  content: "";
+  width: 44px;
+  height: 44px;
+  position: absolute;
+  top: 0; }
+
+.icon-business-consultation:before {
+  background: url("../../../images/icon-business-consultation.png") 50% 50% no-repeat; }
+
+.icon-boost-local-business:before {
+  background: url("../../../images/icon-boost-local-business.png") 50% 50% no-repeat; }
+
+.icon-accounting:before {
+  background: url("../../../images/icon-accounting.png") 50% 50% no-repeat; }
+
 .link-industry {
   background: #3db6e7;
   display: block;
@@ -10918,8 +10996,7 @@ button:focus {
 
 .about-carousel {
   border-top: 1px solid #e7eff1;
-  padding: 60px 0 95px;
-  margin-top: 70px; }
+  padding: 60px 0 95px; }
   .about-carousel .slick-slide img {
     -webkit-transition: all 0.5s ease;
     -o-transition: all 0.5s ease;
@@ -10985,6 +11062,9 @@ button:focus {
     border-color: #ef961a;
     color: #fff; }
 
+.button-main-margin {
+  margin: 25px 0 80px; }
+
 .circle-for-logo {
   margin: 0 auto;
   width: 130px;
@@ -11013,18 +11093,38 @@ button:focus {
 @media only screen and (max-width: 768px) {
   h3 {
     font: 700 28px/30px Montserrat, serif;
-    padding: 60px 0 30px; } }
+    padding: 60px 0 30px; }
+  h4 {
+    font-size: 16px; }
+  .button-main {
+    font-size: 12px; }
+    .button-main-margin {
+      margin: 20px 0 55px; } }
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width: 576px) {
-  /**/ }
+  h3 {
+    font-size: 24px;
+    padding: 50px 0 25px; }
+  .button-main-margin {
+    margin: 15px 0 50px; } }
 
 /* Custom, iPhone Retina */
 @media only screen and (max-width: 480px) {
-  /**/ }
+  h3 {
+    font-size: 22px;
+    padding: 40px 0 20px; }
+  h4 {
+    font-size: 15px; }
+  .button-main-margin {
+    margin: 15px 0 30px; } }
 
 @media only screen and (max-width: 320px) {
-  /**/ }
+  h3 {
+    font-size: 20px;
+    padding: 30px 0 15px; }
+  .button-main-margin {
+    margin: 15px 0 15px; } }
 
 /* Large Devices, Wide Screens */
 @media only screen and (max-width: 1200px) {
@@ -11248,6 +11348,8 @@ button:focus {
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width: 992px) {
+  .projects-wrapper {
+    margin-bottom: 35px; }
   .project-carousel {
     margin-top: 30px; }
     .project-carousel .slick-dots {
@@ -11257,6 +11359,8 @@ button:focus {
 
 /* Small Devices, Tablets */
 @media only screen and (max-width: 768px) {
+  .projects-wrapper {
+    margin-bottom: 20px; }
   .project-slider-item img {
     max-height: 200px; }
   .project-carousel .slick-dots {
@@ -11266,10 +11370,13 @@ button:focus {
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width: 576px) {
-  /**/ }
+  .slick-dotted.slick-slider {
+    margin-bottom: 15px; } }
 
 /* Custom, iPhone Retina */
 @media only screen and (max-width: 480px) {
+  .projects-wrapper {
+    margin-bottom: 10px; }
   .project-slider-item img {
     max-height: 147px; }
   .project-carousel .slick-dots {
@@ -11280,3 +11387,31 @@ button:focus {
     max-height: 117px; }
   .project-carousel .slick-dots {
     bottom: 260px; } }
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1200px) {
+  /**/ }
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px) {
+  .services-section h3 {
+    padding-bottom: 45px; } }
+
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+  .services-section h3 {
+    padding-bottom: 40px; }
+  .services-item {
+    padding-bottom: 35px; } }
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 576px) {
+  /**/ }
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width: 480px) {
+  .services-item {
+    padding-bottom: 20px; } }
+
+@media only screen and (max-width: 320px) {
+  /**/ }

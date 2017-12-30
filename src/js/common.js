@@ -4,7 +4,7 @@ $(function() {
 
     //WELCOME-CAROUSEL
 
-	$('#welcome-carousel').slick({
+	$('#welcomeCarousel').slick({
         arrows: false,
         dots: true,
         infinite: true,
@@ -40,7 +40,7 @@ $(function() {
 
     //ABOUT US CAROUSEL
 
-	$('#about-carousel').slick({
+	$('#aboutCarousel').slick({
         // autoplay: true,
         arrows: true,
         infinite: true,
@@ -80,14 +80,32 @@ $(function() {
         ]
     });
 
-    $('#project-carousel').slick({
+
+    //PROJECT CAROUSEL
+
+    $('#projectCarousel').slick({
         arrows: false,
         dots: true,
         infinite: true
     });
 
 
+    //BLOCKQUOTE CAROUSEL
 
+    $('.blockquote-carousel').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        arrows: false,
+        asNavFor: '.blockquote-thumb-nav'
+    });
+    $('.blockquote-thumb-nav').slick({
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        asNavFor: '.blockquote-carousel',
+        centerMode: true,
+        focusOnSelect: true,
+        variableWidth: true
+    });
 
 	//Bootstrap dropdown on hover
 
