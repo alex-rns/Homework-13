@@ -93,6 +93,7 @@ $(function() {
     //BLOCKQUOTE CAROUSEL
 
     $('.blockquote-carousel').slick({
+        swipe: false,
         slidesToShow: 1,
         slidesToScroll: 1,
         arrows: false,
@@ -104,7 +105,8 @@ $(function() {
         asNavFor: '.blockquote-carousel',
         centerMode: true,
         focusOnSelect: true,
-        variableWidth: true
+        variableWidth: true,
+        initialSlide: 1
     });
 
 	//Bootstrap dropdown on hover
@@ -114,5 +116,6 @@ $(function() {
     }, function() {
         $(this).find('.dropdown-menu').stop(true, true).delay(200).fadeOut(500);
     });
+
 
 });

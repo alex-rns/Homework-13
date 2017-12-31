@@ -1,0 +1,49 @@
+.our-blog
+  &-section
+    background: $gray
+    .container
+      margin-bottom: 30px
+
+  &-card
+    overflow: hidden
+    padding: 0
+    width: 570px
+    height: 295px
+    box-shadow: 25px 0 70px 0 #d4e2e5 inset
+    background-color: #fff
+
+    &:hover
+
+      &:after
+        border-top: 3px solid $accent-color-third
+
+      .our-blog-card-wrap
+        width: 64%
+
+      .our-blog-slide-img
+        width: 36%
+
+    &-wrap
+      transition: $transition
+      width: 100%
+      float: left
+      padding: 50px
+      span
+        color: #000
+
+    &:after
+      transition: $transition
+      position: absolute
+      top: 0
+      left: 0
+      width: 100%
+      border-top: 3px solid $accent-color
+      content: ''
+
+  &-slide-img
+    overflow: hidden
+    min-height: 295px
+    width: 0
+    transition: $transition
+    float: left
+
