@@ -1,0 +1,55 @@
+@import "../../components/variables"
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px)
+  /**/
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px)
+  .button-footer-subscribe
+    width: 100%
+    padding: 0 15px
+  .main-footer
+    &-form
+      input
+        padding: 0 15px
+        text-align: center
+        width: 100%
+
+    &-social
+      li
+        margin: 0 10px
+
+    &-copyright
+      font-size: 14px
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px)
+  .main-footer
+    text-align: center
+    h4
+      margin-top: 15px
+    &-top
+      padding: 60px 0
+    &-logo
+      margin-bottom: 30px
+    &-form
+      margin-bottom: 25px
+    &-bottom
+      justify-content: center
+    &-social
+      justify-content: center
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 576px)
+  .main-footer-top
+    padding: 50px 0 20px
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 480px)
+  .main-footer-top
+    padding: 40px 0 10px
+
+@media only screen and (max-width : 320px)
+  /**/
