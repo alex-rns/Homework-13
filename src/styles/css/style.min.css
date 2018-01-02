@@ -10634,18 +10634,20 @@ body {
       -ms-flex: 1 0 auto;
           flex: 1 0 auto; }
 
+.main-page h4 {
+  text-align: center; }
+
 h2 {
   font: 400 16px Montserrat, serif; }
 
-h3 {
-  text-align: center;
+h4 {
   text-transform: uppercase;
   font: 700 32px/33px Montserrat, serif;
   color: #343a3b;
   letter-spacing: -1.6px;
   padding: 95px 0 40px; }
 
-h4 {
+h5 {
   color: #343a3b;
   font: 700 17px/33px Montserrat, serif;
   text-transform: uppercase;
@@ -10668,9 +10670,6 @@ button:focus {
 .gray-bg {
   background: #e7eff1; }
 
-.banner-home-page {
-  padding-bottom: 160px; }
-
 .about-us-section p {
   padding: 0 15px;
   max-width: 680px;
@@ -10691,10 +10690,10 @@ button:focus {
 .card-block {
   padding: 25px;
   background: #ef961a; }
-  .card-block h4 {
+  .card-block h5 {
     color: #fff;
     letter-spacing: 0.2px; }
-    .card-block h4:hover {
+    .card-block h5:hover {
       text-decoration: underline; }
   .card-block p {
     color: #ffffff;
@@ -10707,14 +10706,14 @@ button:focus {
   .card-slider .card-block {
     border: 1px solid #dae5e8;
     border-top: none; }
-    .card-slider .card-block h4 {
+    .card-slider .card-block h5 {
       color: #343a3b; }
     .card-slider .card-block p {
       color: #838b8c; }
 
 .services-section {
   background: #fffaf3; }
-  .services-section h3 {
+  .services-section h4 {
     padding-bottom: 55px; }
 
 .services-item {
@@ -10733,7 +10732,7 @@ button:focus {
   padding-bottom: 70px;
   background: #3db6e7;
   font: 400 15px/28px  Domine, serif; }
-  .testimonials-section h3 {
+  .testimonials-section h4 {
     z-index: 100;
     padding-bottom: 20px; }
   .testimonials-section p {
@@ -10867,7 +10866,7 @@ button:focus {
 
 .main-footer {
   background: #262829; }
-  .main-footer h4 {
+  .main-footer h5 {
     font-size: 20px;
     color: #e1e1e1;
     margin-bottom: 20px; }
@@ -11023,7 +11022,12 @@ button:focus {
   -webkit-background-size: cover;
           background-size: cover;
   position: relative;
-  z-index: 1; }
+  z-index: 1;
+  padding-bottom: 160px; }
+  .banner-nomain {
+    padding-bottom: 150px; }
+    .banner-nomain .welcome-info {
+      padding-top: 200px; }
 
 .banner-bg:before {
   background: -webkit-linear-gradient(139deg, rgba(255, 172, 86, 0.43) 0%, rgba(3, 182, 231, 0.43) 100%);
@@ -11284,10 +11288,22 @@ button:focus {
     .quick-contact-section .quick-contact-block-wrap span {
       color: #343a3b;
       font-size: 18px; }
-    .quick-contact-section .quick-contact-block-wrap h4 {
+    .quick-contact-section .quick-contact-block-wrap h5 {
       margin: 0; }
     .quick-contact-section .quick-contact-block-wrap:hover {
       background: #40d53a; }
+
+.about-us-page-content {
+  padding-bottom: 80px; }
+  .about-us-page-content h4 {
+    padding: 85px 0 25px; }
+  .about-us-page-content p {
+    margin: 0; }
+
+.about-us-video-section {
+  width: 457px;
+  height: 330px;
+  padding: 85px 0 10px; }
 
 /* Large Devices, Wide Screens */
 @media only screen and (max-width: 1200px) {
@@ -11299,10 +11315,10 @@ button:focus {
 
 /* Small Devices, Tablets */
 @media only screen and (max-width: 768px) {
-  h3 {
+  h4 {
     font: 700 28px/30px Montserrat, serif;
     padding: 60px 0 30px; }
-  h4 {
+  h5 {
     font-size: 16px; }
   .button-main {
     font-size: 12px; }
@@ -11311,7 +11327,7 @@ button:focus {
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width: 576px) {
-  h3 {
+  h4 {
     font-size: 24px;
     padding: 50px 0 25px; }
   .button-main-margin {
@@ -11319,16 +11335,16 @@ button:focus {
 
 /* Custom, iPhone Retina */
 @media only screen and (max-width: 480px) {
-  h3 {
+  h4 {
     font-size: 22px;
     padding: 40px 0 20px; }
-  h4 {
+  h5 {
     font-size: 15px; }
   .button-main-margin {
     margin: 15px 0 30px; } }
 
 @media only screen and (max-width: 320px) {
-  h3 {
+  h4 {
     font-size: 20px;
     padding: 30px 0 15px; }
   .button-main-margin {
@@ -11559,12 +11575,12 @@ button:focus {
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width: 992px) {
-  .services-section h3 {
+  .services-section h4 {
     padding-bottom: 45px; } }
 
 /* Small Devices, Tablets */
 @media only screen and (max-width: 768px) {
-  .services-section h3 {
+  .services-section h4 {
     padding-bottom: 40px; }
   .services-item {
     padding-bottom: 35px; } }
@@ -11640,7 +11656,7 @@ button:focus {
 @media only screen and (max-width: 768px) {
   .main-footer {
     text-align: center; }
-    .main-footer h4 {
+    .main-footer h5 {
       margin-top: 15px; }
     .main-footer-top {
       padding: 60px 0; }
