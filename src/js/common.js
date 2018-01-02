@@ -80,7 +80,6 @@ $(function() {
         ]
     });
 
-
     //PROJECT CAROUSEL
 
     $('#projectCarousel').slick({

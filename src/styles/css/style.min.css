@@ -11334,10 +11334,6 @@ button:focus {
   .button-main-margin {
     margin: 15px 0 15px; } }
 
-/* Large Devices, Wide Screens */
-@media only screen and (max-width: 1200px) {
-  /**/ }
-
 /* Medium Devices, Desktops */
 @media only screen and (max-width: 992px) {
   .welcome-info span {
@@ -11352,10 +11348,6 @@ button:focus {
   .welcome-info h2 {
     font-size: 14px; } }
 
-/* Extra Small Devices, Phones */
-@media only screen and (max-width: 576px) {
-  /**/ }
-
 /* Custom, iPhone Retina */
 @media only screen and (max-width: 480px) {
   .welcome-info span {
@@ -11369,29 +11361,10 @@ button:focus {
   .welcome-info h2 {
     font-size: 11px; } }
 
-/* Large Devices, Wide Screens */
-@media only screen and (max-width: 1200px) {
-  /**/ }
-
 /* Medium Devices, Desktops */
 @media only screen and (max-width: 992px) {
   .link-industry {
     font-size: 16px; } }
-
-/* Small Devices, Tablets */
-@media only screen and (max-width: 768px) {
-  /**/ }
-
-/* Extra Small Devices, Phones */
-@media only screen and (max-width: 576px) {
-  /**/ }
-
-/* Custom, iPhone Retina */
-@media only screen and (max-width: 480px) {
-  /**/ }
-
-@media only screen and (max-width: 320px) {
-  /**/ }
 
 /* Large Devices, Wide Screens */
 @media only screen and (max-width: 1200px) {
@@ -11424,17 +11397,10 @@ button:focus {
   .top-contacts .top-contacts-tel {
     font-size: 12px; } }
 
-/* Extra Small Devices, Phones */
-@media only screen and (max-width: 576px) {
-  /**/ }
-
 /* Custom, iPhone Retina */
 @media only screen and (max-width: 480px) {
   .top-contacts {
     display: none; } }
-
-@media only screen and (max-width: 320px) {
-  /**/ }
 
 @media only screen and (max-width: 1240px) {
   .about-carousel {
@@ -11444,31 +11410,12 @@ button:focus {
     .about-carousel .slick-next {
       padding-left: 0; } }
 
-/* Large Devices, Wide Screens */
-@media only screen and (max-width: 1200px) {
-  /**/ }
-
 /* Medium Devices, Desktops */
 @media only screen and (max-width: 992px) {
   .about-carousel {
     margin-top: 30px;
     padding: 40px 0 15px; } }
 
-/* Small Devices, Tablets */
-@media only screen and (max-width: 768px) {
-  /**/ }
-
-/* Extra Small Devices, Phones */
-@media only screen and (max-width: 576px) {
-  /**/ }
-
-/* Custom, iPhone Retina */
-@media only screen and (max-width: 480px) {
-  /**/ }
-
-@media only screen and (max-width: 320px) {
-  /**/ }
-
 /* Large Devices, Wide Screens */
 @media only screen and (max-width: 1200px) {
   .middle-circle {
@@ -11501,13 +11448,6 @@ button:focus {
   .our-features-section {
     padding: 0 15px; } }
 
-/* Custom, iPhone Retina */
-@media only screen and (max-width: 480px) {
-  /**/ }
-
-@media only screen and (max-width: 320px) {
-  /**/ }
-
 /* Large Devices, Wide Screens */
 @media only screen and (max-width: 1200px) {
   .middle-circle {
@@ -11539,13 +11479,6 @@ button:focus {
 @media only screen and (max-width: 576px) {
   .our-features-section {
     padding: 0 15px; } }
-
-/* Custom, iPhone Retina */
-@media only screen and (max-width: 480px) {
-  /**/ }
-
-@media only screen and (max-width: 320px) {
-  /**/ }
 
 /* Large Devices, Wide Screens */
 @media only screen and (max-width: 1200px) {
@@ -11615,10 +11548,6 @@ button:focus {
         -ms-transform: translate(-50%, -50%);
             transform: translate(-50%, -50%); } }
 
-/* Small Devices, Tablets */
-@media only screen and (max-width: 768px) {
-  /**/ }
-
 /* Extra Small Devices, Phones */
 @media only screen and (max-width: 576px) {
   .quick-contact-section {
@@ -11627,17 +11556,6 @@ button:focus {
     display: block; }
   .icon-quick-contact:before {
     left: 80%; } }
-
-/* Custom, iPhone Retina */
-@media only screen and (max-width: 480px) {
-  /**/ }
-
-@media only screen and (max-width: 320px) {
-  /**/ }
-
-/* Large Devices, Wide Screens */
-@media only screen and (max-width: 1200px) {
-  /**/ }
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width: 992px) {
@@ -11651,21 +11569,10 @@ button:focus {
   .services-item {
     padding-bottom: 35px; } }
 
-/* Extra Small Devices, Phones */
-@media only screen and (max-width: 576px) {
-  /**/ }
-
 /* Custom, iPhone Retina */
 @media only screen and (max-width: 480px) {
   .services-item {
     padding-bottom: 20px; } }
-
-@media only screen and (max-width: 320px) {
-  /**/ }
-
-/* Large Devices, Wide Screens */
-@media only screen and (max-width: 1200px) {
-  /**/ }
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width: 992px) {
@@ -11714,25 +11621,6 @@ button:focus {
     margin-bottom: 30px; }
     .our-blog-card:last-child {
       margin-bottom: 0; } }
-
-/* Small Devices, Tablets */
-@media only screen and (max-width: 768px) {
-  /**/ }
-
-/* Extra Small Devices, Phones */
-@media only screen and (max-width: 576px) {
-  /**/ }
-
-/* Custom, iPhone Retina */
-@media only screen and (max-width: 480px) {
-  /**/ }
-
-@media only screen and (max-width: 320px) {
-  /**/ }
-
-/* Large Devices, Wide Screens */
-@media only screen and (max-width: 1200px) {
-  /**/ }
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width: 992px) {
@@ -11785,6 +11673,3 @@ button:focus {
 @media only screen and (max-width: 480px) {
   .main-footer-top {
     padding: 40px 0 45px; } }
-
-@media only screen and (max-width: 320px) {
-  /**/ }
