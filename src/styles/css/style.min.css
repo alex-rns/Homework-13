@@ -10872,6 +10872,9 @@ button:focus {
     color: #e1e1e1;
     margin-bottom: 20px; }
   .main-footer a {
+    -webkit-transition: 0.2s all ease;
+    -o-transition: 0.2s all ease;
+    transition: 0.2s all ease;
     text-transform: uppercase;
     color: #838b8c;
     font: 400 13px/30px Montserrat, serif; }
@@ -11245,6 +11248,9 @@ button:focus {
   margin: 25px 0 80px; }
 
 .button-footer-subscribe {
+  -webkit-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
   height: 52px;
   position: absolute;
   padding: 0 18px;
@@ -11268,7 +11274,7 @@ button:focus {
   padding-left: 55px; }
 
 .quick-contact-section {
-  margin-bottom: 70px; }
+  padding-bottom: 70px; }
   .quick-contact-section .quick-contact-block-wrap {
     -webkit-transition: all 0.5s ease;
     -o-transition: all 0.5s ease;
@@ -11600,7 +11606,8 @@ button:focus {
   .quick-contact-block-info {
     display: none; }
   .quick-contact-section .quick-contact-block-wrap {
-    padding: 40px 15px; }
+    padding: 40px 15px;
+    margin: -.5px 0; }
   .icon-quick-contact:before {
     left: 50%;
     top: 50%;
@@ -11614,6 +11621,8 @@ button:focus {
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width: 576px) {
+  .quick-contact-section {
+    padding-bottom: 40px; }
   .quick-contact-block-info {
     display: block; }
   .icon-quick-contact:before {
@@ -11660,23 +11669,29 @@ button:focus {
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width: 992px) {
-  /**/ }
+  .testimonials-section {
+    padding-bottom: 60px; } }
 
 /* Small Devices, Tablets */
 @media only screen and (max-width: 768px) {
-  /**/ }
+  .testimonials-section {
+    padding-bottom: 40px; } }
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width: 576px) {
-  .testimonials-section .container:before {
-    width: 132px;
-    height: 112px; } }
+  .testimonials-section {
+    padding-bottom: 30px; }
+    .testimonials-section .container:before {
+      width: 132px;
+      height: 112px; } }
 
 /* Custom, iPhone Retina */
 @media only screen and (max-width: 480px) {
-  .testimonials-section .container:before {
-    width: 112px;
-    height: 92px; } }
+  .testimonials-section {
+    padding-bottom: 10px; }
+    .testimonials-section .container:before {
+      width: 112px;
+      height: 92px; } }
 
 @media only screen and (max-width: 320px) {
   .testimonials-section .container:before {
@@ -11749,7 +11764,8 @@ button:focus {
       -webkit-box-pack: center;
       -webkit-justify-content: center;
           -ms-flex-pack: center;
-              justify-content: center; }
+              justify-content: center;
+      padding-bottom: 25px; }
     .main-footer-social {
       -webkit-box-pack: center;
       -webkit-justify-content: center;
@@ -11758,13 +11774,17 @@ button:focus {
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width: 576px) {
+  .main-footer-bottom {
+    padding-bottom: 20px; }
   .main-footer-top {
-    padding: 50px 0 20px; } }
+    padding: 50px 0 45px; }
+  .main-footer-social {
+    margin-top: 15px; } }
 
 /* Custom, iPhone Retina */
 @media only screen and (max-width: 480px) {
   .main-footer-top {
-    padding: 40px 0 10px; } }
+    padding: 40px 0 45px; } }
 
 @media only screen and (max-width: 320px) {
   /**/ }
