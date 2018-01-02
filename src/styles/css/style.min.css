@@ -10640,6 +10640,12 @@ body {
 h2 {
   font: 400 16px Montserrat, serif; }
 
+h3 {
+  color: #343a3b;
+  font: 700 24px/33px Montserrat, serif;
+  text-transform: uppercase;
+  letter-spacing: -1.2px; }
+
 h4 {
   text-transform: uppercase;
   font: 700 32px/33px Montserrat, serif;
@@ -11251,6 +11257,9 @@ button:focus {
 .button-main-margin {
   margin: 25px 0 80px; }
 
+.button-second-margin {
+  margin: 30px 0 30px; }
+
 .button-footer-subscribe {
   -webkit-transition: all 0.5s ease;
   -o-transition: all 0.5s ease;
@@ -11301,9 +11310,63 @@ button:focus {
     margin: 0; }
 
 .about-us-video-section {
-  width: 457px;
-  height: 330px;
-  padding: 85px 0 10px; }
+  margin: 90px 0 30px;
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 25px;
+  height: 0; }
+  .about-us-video-section iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; }
+
+.form-default input, .form-default textarea {
+  background: none;
+  border: none;
+  border-bottom: 1px solid #7cddf7;
+  color: #fff;
+  padding: 0; }
+  .form-default input::-webkit-input-placeholder, .form-default textarea::-webkit-input-placeholder {
+    color: #d4f6ff;
+    font: 400 13px/30px Montserrat, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.97px; }
+  .form-default input::-moz-placeholder, .form-default textarea::-moz-placeholder {
+    color: #d4f6ff;
+    font: 400 13px/30px Montserrat, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.97px; }
+  .form-default input:-ms-input-placeholder, .form-default textarea:-ms-input-placeholder {
+    color: #d4f6ff;
+    font: 400 13px/30px Montserrat, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.97px; }
+  .form-default input::-ms-input-placeholder, .form-default textarea::-ms-input-placeholder {
+    color: #d4f6ff;
+    font: 400 13px/30px Montserrat, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.97px; }
+  .form-default input::placeholder, .form-default textarea::placeholder {
+    color: #d4f6ff;
+    font: 400 13px/30px Montserrat, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.97px; }
+
+.form-default textarea {
+  width: 100%;
+  margin-top: 15px; }
+
+.form-about-us {
+  color: #fff;
+  background: #3db6e7;
+  padding: 45px 35px 0; }
+  .form-about-us input {
+    width: 100%; }
+  .form-about-us h3 {
+    color: #fff;
+    margin-bottom: 15px; }
 
 /* Large Devices, Wide Screens */
 @media only screen and (max-width: 1200px) {
@@ -11689,3 +11752,12 @@ button:focus {
 @media only screen and (max-width: 480px) {
   .main-footer-top {
     padding: 40px 0 45px; } }
+
+/* Medium Devices, Desktops */
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+  .about-us-page-content h4 {
+    text-align: center;
+    padding-top: 60px; } }
+
+/* Custom, iPhone Retina */
