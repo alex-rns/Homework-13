@@ -10634,24 +10634,24 @@ body {
       -ms-flex: 1 0 auto;
           flex: 1 0 auto; }
 
-.main-page h4 {
+.main-page h3 {
   text-align: center; }
 
 h2 {
   font: 400 16px Montserrat, serif; }
 
 h3 {
-  color: #343a3b;
-  font: 700 24px/33px Montserrat, serif;
-  text-transform: uppercase;
-  letter-spacing: -1.2px; }
-
-h4 {
   text-transform: uppercase;
   font: 700 32px/33px Montserrat, serif;
   color: #343a3b;
   letter-spacing: -1.6px;
   padding: 95px 0 40px; }
+
+h4 {
+  color: #343a3b;
+  font: 700 24px/33px Montserrat, serif;
+  text-transform: uppercase;
+  letter-spacing: -1.2px; }
 
 h5 {
   color: #343a3b;
@@ -10720,7 +10720,7 @@ button:focus {
 
 .services-section {
   background: #fffaf3; }
-  .services-section h4 {
+  .services-section h3 {
     padding-bottom: 55px; }
 
 .services-item {
@@ -10739,7 +10739,7 @@ button:focus {
   padding-bottom: 70px;
   background: #3db6e7;
   font: 400 15px/28px  Domine, serif; }
-  .testimonials-section h4 {
+  .testimonials-section h3 {
     z-index: 100;
     padding-bottom: 20px; }
   .testimonials-section p {
@@ -10886,6 +10886,8 @@ button:focus {
     font: 400 13px/30px Montserrat, serif; }
     .main-footer a:hover {
       color: #ef961a; }
+  .main-footer .dropdown-menu a:hover {
+    color: #000; }
   .main-footer-top {
     padding: 90px 0; }
   .main-footer-form {
@@ -11274,6 +11276,9 @@ button:focus {
   right: 0;
   font-size: 15px; }
 
+.button-industry {
+  padding: 6px 17px; }
+
 .circle-for-logo {
   margin: 0 auto;
   width: 130px;
@@ -11306,9 +11311,27 @@ button:focus {
     .quick-contact-section .quick-contact-block-wrap:hover {
       background: #40d53a; }
 
+.industry-card {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  border: 1px solid #e4ecee;
+  margin-bottom: 15px; }
+  .industry-card-list {
+    margin-bottom: 80px; }
+  .industry-card-img {
+    width: 55%; }
+  .industry-card-info {
+    width: 45%;
+    padding: 40px 20px 15px; }
+  .industry-card:hover {
+    -webkit-box-shadow: 0 0 50px #bbdce5;
+            box-shadow: 0 0 50px #bbdce5; }
+
 .about-us-page-content {
   padding-bottom: 80px; }
-  .about-us-page-content h4 {
+  .about-us-page-content h3 {
     padding: 85px 0 25px; }
   .about-us-page-content p {
     margin: 0; }
@@ -11381,7 +11404,7 @@ button:focus {
   padding: 45px 35px 0; }
   .form-about-us input {
     width: 100%; }
-  .form-about-us h3 {
+  .form-about-us h4 {
     color: #fff;
     margin-bottom: 15px; }
 
@@ -11395,7 +11418,7 @@ button:focus {
 
 /* Small Devices, Tablets */
 @media only screen and (max-width: 768px) {
-  h4 {
+  h3 {
     font: 700 28px/30px Montserrat, serif;
     padding: 60px 0 30px; }
   h5 {
@@ -11407,7 +11430,7 @@ button:focus {
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width: 576px) {
-  h4 {
+  h3 {
     font-size: 24px;
     padding: 50px 0 25px; }
   .button-main-margin {
@@ -11415,7 +11438,7 @@ button:focus {
 
 /* Custom, iPhone Retina */
 @media only screen and (max-width: 480px) {
-  h4 {
+  h3 {
     font-size: 22px;
     padding: 40px 0 20px; }
   h5 {
@@ -11424,7 +11447,7 @@ button:focus {
     margin: 15px 0 30px; } }
 
 @media only screen and (max-width: 320px) {
-  h4 {
+  h3 {
     font-size: 20px;
     padding: 30px 0 15px; }
   .button-main-margin {
@@ -11653,14 +11676,48 @@ button:focus {
   .icon-quick-contact:before {
     left: 80%; } }
 
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1200px) {
+  .industry-card {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+    .industry-card-img {
+      width: 100%; }
+      .industry-card-img img {
+        width: 100%; }
+    .industry-card-info {
+      width: 100%; } }
+
 /* Medium Devices, Desktops */
 @media only screen and (max-width: 992px) {
-  .services-section h4 {
+  .industry-card-list {
+    margin-bottom: 65px; } }
+
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+  .industry-card-list {
+    margin-bottom: 50px; } }
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 480px) {
+  .industry-card-list {
+    margin-bottom: 30px; } }
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width: 320px) {
+  /**/ }
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px) {
+  .services-section h3 {
     padding-bottom: 45px; } }
 
 /* Small Devices, Tablets */
 @media only screen and (max-width: 768px) {
-  .services-section h4 {
+  .services-section h3 {
     padding-bottom: 40px; }
   .services-item {
     padding-bottom: 35px; } }
@@ -11773,7 +11830,7 @@ button:focus {
 /* Medium Devices, Desktops */
 /* Small Devices, Tablets */
 @media only screen and (max-width: 768px) {
-  .about-us-page-content h4 {
+  .about-us-page-content h3 {
     text-align: center;
     padding-top: 60px; }
   .about-us-page-card {
