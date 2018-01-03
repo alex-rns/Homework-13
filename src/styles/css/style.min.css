@@ -11228,6 +11228,9 @@ button:focus {
   max-height: 287px; }
 
 .button-main {
+  -webkit-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
   display: inline-block;
   background: #40d53a;
   color: #fff;
