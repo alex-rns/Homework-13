@@ -1,6 +1,6 @@
 .form
   &-default
-    input, textarea
+    input, textarea, select, option
       background: none
       border: none
       border-bottom: 1px solid #7cddf7
@@ -14,6 +14,7 @@
         letter-spacing: 0.97px
 
     textarea
+      resize: none
       width: 100%
       margin-top: 15px
 
@@ -24,7 +25,24 @@
     input
       width: 100%
 
-
     h4
       color: #fff
       margin-bottom: 15px
+
+  &-contact-us
+    padding-bottom: 90px
+    select
+      padding: 6px 0
+    input, textarea, select, option
+      text-transform: uppercase
+      font: 400 13px/30px Montserrat, serif
+      width: 100%
+      color: #343a3b
+      border-bottom: 1px solid #cddbde
+      margin-bottom: 30px
+      &::placeholder
+        color: #343a3b
+    option
+      background: $gray
+    select option:hover
+      box-shadow: 0 0 10px 100px red inset
