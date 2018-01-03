@@ -10951,6 +10951,39 @@ button:focus {
   .main-footer .social-google {
     color: #e4463b; }
 
+.about-us-page-content {
+  padding-bottom: 80px; }
+  .about-us-page-content h3 {
+    padding: 85px 0 25px; }
+  .about-us-page-content p {
+    margin: 0; }
+
+.about-us-video-section {
+  margin: 90px 0 30px;
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 25px;
+  height: 0; }
+  .about-us-video-section iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; }
+
+.about-us-page-card {
+  background: #e7eff1;
+  padding: 75px 0; }
+  .about-us-page-card .card {
+    -webkit-box-shadow: 0 0 50px #bbdce5;
+            box-shadow: 0 0 50px #bbdce5;
+    margin: 15px 0; }
+  .about-us-page-card .card-block {
+    padding: 40px 30px; }
+    .about-us-page-card .card-block p {
+      color: #838b8c;
+      padding-bottom: 15px; }
+
 .connect-us-section {
   margin-bottom: 70px; }
   .connect-us-section a, .connect-us-section p, .connect-us-section pre {
@@ -10979,6 +11012,42 @@ button:focus {
 
 .map {
   padding-top: 95px; }
+
+.new-jobs-section .new-jobs-item {
+  padding: 25px 0;
+  border-bottom: 1px solid #e3ecee; }
+  .new-jobs-section .new-jobs-item span {
+    color: #343a3b;
+    font: 700 14px/21px Montserrat, serif;
+    text-transform: uppercase;
+    letter-spacing: -0.7px; }
+  .new-jobs-section .new-jobs-item p {
+    margin: 0; }
+  .new-jobs-section .new-jobs-item:last-child {
+    border-bottom: none; }
+
+.new-jobs-list {
+  margin-bottom: 30px; }
+
+.new-jobs-location i {
+  font-size: 20px;
+  color: #40d53a; }
+
+.new-jobs-location span {
+  margin: 0 10px; }
+
+.new-jobs-location p {
+  line-height: 21px; }
+
+.companies-we’ve-helped h3 {
+  padding-bottom: 0; }
+
+.companies-we’ve-helped span {
+  text-transform: uppercase;
+  color: #7e8788;
+  font: 400 13px/28px Montserrat, serif;
+  font-size: 13px;
+  letter-spacing: 1.3px; }
 
 .navbar {
   padding-top: 25px;
@@ -11220,7 +11289,7 @@ button:focus {
 
 .about-carousel {
   border-top: 1px solid #e7eff1;
-  padding: 60px 0 95px; }
+  padding: 50px 0 85px; }
   .about-carousel .slick-slide img {
     -webkit-transition: all 0.5s ease;
     -o-transition: all 0.5s ease;
@@ -11358,40 +11427,10 @@ button:focus {
     -webkit-box-shadow: 0 0 50px #bbdce5;
             box-shadow: 0 0 50px #bbdce5; }
 
-.about-us-page-content {
-  padding-bottom: 80px; }
-  .about-us-page-content h3 {
-    padding: 85px 0 25px; }
-  .about-us-page-content p {
-    margin: 0; }
-
-.about-us-video-section {
-  margin: 90px 0 30px;
-  position: relative;
-  padding-bottom: 56.25%;
-  padding-top: 25px;
-  height: 0; }
-  .about-us-video-section iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%; }
-
-.about-us-page-card {
-  background: #e7eff1;
-  padding: 75px 0; }
-  .about-us-page-card .card {
-    -webkit-box-shadow: 0 0 50px #bbdce5;
-            box-shadow: 0 0 50px #bbdce5;
-    margin: 15px 0; }
-  .about-us-page-card .card-block {
-    padding: 40px 30px; }
-    .about-us-page-card .card-block p {
-      color: #838b8c;
-      padding-bottom: 15px; }
-
 .form-default input, .form-default textarea, .form-default select, .form-default option {
+  -webkit-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
   background: none;
   border: none;
   border-bottom: 1px solid #7cddf7;
@@ -11422,6 +11461,8 @@ button:focus {
     font: 400 13px/30px Montserrat, sans-serif;
     text-transform: uppercase;
     letter-spacing: 0.97px; }
+  .form-default input:focus, .form-default textarea:focus, .form-default select:focus, .form-default option:focus {
+    border-bottom: 1px solid #ef961a; }
 
 .form-default textarea {
   resize: none;
@@ -11438,32 +11479,40 @@ button:focus {
     color: #fff;
     margin-bottom: 15px; }
 
-.form-contact-us {
+.form-contact-us, .form-new-jobs {
   padding-bottom: 90px; }
-  .form-contact-us select {
+  .form-contact-us select, .form-new-jobs select {
     padding: 6px 0; }
-  .form-contact-us input, .form-contact-us textarea, .form-contact-us select, .form-contact-us option {
+  .form-contact-us input, .form-new-jobs input, .form-contact-us textarea, .form-new-jobs textarea, .form-contact-us select, .form-new-jobs select, .form-contact-us option, .form-new-jobs option {
     text-transform: uppercase;
     font: 400 13px/30px Montserrat, serif;
     width: 100%;
     color: #343a3b;
     border-bottom: 1px solid #cddbde;
     margin-bottom: 30px; }
-    .form-contact-us input::-webkit-input-placeholder, .form-contact-us textarea::-webkit-input-placeholder, .form-contact-us select::-webkit-input-placeholder, .form-contact-us option::-webkit-input-placeholder {
+    .form-contact-us input::-webkit-input-placeholder, .form-new-jobs input::-webkit-input-placeholder, .form-contact-us textarea::-webkit-input-placeholder, .form-new-jobs textarea::-webkit-input-placeholder, .form-contact-us select::-webkit-input-placeholder, .form-new-jobs select::-webkit-input-placeholder, .form-contact-us option::-webkit-input-placeholder, .form-new-jobs option::-webkit-input-placeholder {
       color: #343a3b; }
-    .form-contact-us input::-moz-placeholder, .form-contact-us textarea::-moz-placeholder, .form-contact-us select::-moz-placeholder, .form-contact-us option::-moz-placeholder {
+    .form-contact-us input::-moz-placeholder, .form-new-jobs input::-moz-placeholder, .form-contact-us textarea::-moz-placeholder, .form-new-jobs textarea::-moz-placeholder, .form-contact-us select::-moz-placeholder, .form-new-jobs select::-moz-placeholder, .form-contact-us option::-moz-placeholder, .form-new-jobs option::-moz-placeholder {
       color: #343a3b; }
-    .form-contact-us input:-ms-input-placeholder, .form-contact-us textarea:-ms-input-placeholder, .form-contact-us select:-ms-input-placeholder, .form-contact-us option:-ms-input-placeholder {
+    .form-contact-us input:-ms-input-placeholder, .form-new-jobs input:-ms-input-placeholder, .form-contact-us textarea:-ms-input-placeholder, .form-new-jobs textarea:-ms-input-placeholder, .form-contact-us select:-ms-input-placeholder, .form-new-jobs select:-ms-input-placeholder, .form-contact-us option:-ms-input-placeholder, .form-new-jobs option:-ms-input-placeholder {
       color: #343a3b; }
-    .form-contact-us input::-ms-input-placeholder, .form-contact-us textarea::-ms-input-placeholder, .form-contact-us select::-ms-input-placeholder, .form-contact-us option::-ms-input-placeholder {
+    .form-contact-us input::-ms-input-placeholder, .form-new-jobs input::-ms-input-placeholder, .form-contact-us textarea::-ms-input-placeholder, .form-new-jobs textarea::-ms-input-placeholder, .form-contact-us select::-ms-input-placeholder, .form-new-jobs select::-ms-input-placeholder, .form-contact-us option::-ms-input-placeholder, .form-new-jobs option::-ms-input-placeholder {
       color: #343a3b; }
-    .form-contact-us input::placeholder, .form-contact-us textarea::placeholder, .form-contact-us select::placeholder, .form-contact-us option::placeholder {
+    .form-contact-us input::placeholder, .form-new-jobs input::placeholder, .form-contact-us textarea::placeholder, .form-new-jobs textarea::placeholder, .form-contact-us select::placeholder, .form-new-jobs select::placeholder, .form-contact-us option::placeholder, .form-new-jobs option::placeholder {
       color: #343a3b; }
-  .form-contact-us option {
+  .form-contact-us option, .form-new-jobs option {
     background: #e7eff1; }
-  .form-contact-us select option:hover {
+  .form-contact-us select option:hover, .form-new-jobs select option:hover {
     -webkit-box-shadow: 0 0 10px 100px red inset;
             box-shadow: 0 0 10px 100px red inset; }
+
+.form-new-jobs input[type="file"] {
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 5;
+  cursor: pointer; }
 
 /* Large Devices, Wide Screens */
 @media only screen and (max-width: 1200px) {
@@ -11773,22 +11822,22 @@ button:focus {
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width: 992px) {
-  .form-contact-us {
+  .form-contact-us, .form-new-jobs {
     padding-bottom: 70px; } }
 
 /* Small Devices, Tablets */
 @media only screen and (max-width: 768px) {
-  .form-contact-us {
+  .form-contact-us, .form-new-jobs {
     padding-bottom: 50px; } }
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width: 480px) {
-  .form-contact-us {
+  .form-contact-us, .form-new-jobs {
     padding-bottom: 35px; } }
 
 /* Custom, iPhone Retina */
 @media only screen and (max-width: 320px) {
-  .form-contact-us {
+  .form-contact-us, .form-new-jobs {
     padding-bottom: 30px; } }
 
 /* Medium Devices, Desktops */
@@ -11950,5 +11999,32 @@ button:focus {
   /**/ }
 
 /* Custom, iPhone Retina */
+@media only screen and (max-width: 320px) {
+  /**/ }
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1200px) {
+  /**/ }
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px) {
+  .new-jobs-item .button-main {
+    padding: 6px 18px; } }
+
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+  .new-jobs-item .button-main {
+    margin-top: 15px; } }
+
+@media only screen and (max-width: 576px) {
+  .new-jobs-location {
+    padding: 0 30px; }
+  .new-jobs-section button {
+    margin: auto; } }
+
+@media only screen and (max-width: 480px) {
+  .new-jobs-item button {
+    margin-left: 15px; } }
+
 @media only screen and (max-width: 320px) {
   /**/ }

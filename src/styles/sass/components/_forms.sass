@@ -1,6 +1,7 @@
 .form
   &-default
     input, textarea, select, option
+      transition: $transition
       background: none
       border: none
       border-bottom: 1px solid #7cddf7
@@ -12,6 +13,8 @@
         font: 400 13px/30px Montserrat, sans-serif
         text-transform: uppercase
         letter-spacing: 0.97px
+      &:focus
+        border-bottom: 1px solid $accent-color
 
     textarea
       resize: none
@@ -42,7 +45,18 @@
       margin-bottom: 30px
       &::placeholder
         color: #343a3b
+
     option
       background: $gray
     select option:hover
       box-shadow: 0 0 10px 100px red inset
+
+  &-new-jobs
+    @extend .form-contact-us
+    input[type="file"]
+      opacity: 0
+      position: absolute
+      top: 0
+      left: 0
+      z-index: 5
+      cursor: pointer
