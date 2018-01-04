@@ -1,0 +1,47 @@
+.testimonials
+  &-page-carousel-section
+    background: url("../../../images/testimonials-bg.png") 20% 0 no-repeat
+    background-size: cover
+
+  &-carousel
+    padding: 130px 0 140px 0
+    &-item
+      padding-right: 70px
+      blockquote
+        position: relative
+        font: 400 18px/33px Domine, serif
+        color: #fff
+        letter-spacing: 0.7px
+
+      span
+        color: #ffffff
+        font: 400 20px/33px Montserrat, serif
+        letter-spacing: -1px
+      p
+        color: #caccce
+        font-family: 400 14px/33px Montserrat, serif
+        letter-spacing: -0.7px
+
+.testimonials-thumb-nav
+  text-align: center
+  img
+    transition: $transition
+    cursor: pointer
+    width: 94px
+    height: 94px
+    border-radius: 50%
+    margin: 0 20px
+  //opacity: 0.5
+    //&:hover
+    //  opacity: 1
+    //  transform: scale(1.2)
+
+  .slick-list
+    height: 65px
+    display: flex
+    align-items: center
+
+
+  .slick-current
+    opacity: 1
+    transform: scale(1.2)

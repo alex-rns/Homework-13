@@ -108,6 +108,10 @@ $(function() {
         initialSlide: 1
     });
 
+    //TESTIMONIALS CAROUSEL
+
+
+
 	//Bootstrap dropdown on hover
 
     $('.dropdown').hover(function() {
