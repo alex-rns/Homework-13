@@ -4,9 +4,11 @@
     background-size: cover
 
   &-carousel
-    padding: 130px 0 140px 0
+    padding: 130px 0 60px 0
+
     &-item
-      padding-right: 70px
+      padding: 30px 70px 0 75px
+
       blockquote
         position: relative
         font: 400 18px/33px Domine, serif
@@ -17,31 +19,34 @@
         color: #ffffff
         font: 400 20px/33px Montserrat, serif
         letter-spacing: -1px
+
       p
         color: #caccce
         font-family: 400 14px/33px Montserrat, serif
         letter-spacing: -0.7px
 
-.testimonials-thumb-nav
-  text-align: center
-  img
-    transition: $transition
-    cursor: pointer
-    width: 94px
-    height: 94px
-    border-radius: 50%
-    margin: 0 20px
-  //opacity: 0.5
-    //&:hover
-    //  opacity: 1
-    //  transform: scale(1.2)
+  &-thumb-nav
+    text-align: center
+    position: relative
+    bottom: -50px
 
-  .slick-list
-    height: 65px
-    display: flex
-    align-items: center
+    img
+      transition: $transition
+      cursor: pointer
+      width: 94px
+      height: 94px
+      border-radius: 50%
+      margin: 0 20px
+      border: 5px solid #fff
+      &:hover
+        border: 5px solid $accent-color
+        box-shadow: 0 0 0 10px rgba(239, 150, 26, 0.5)
 
+    .slick-track
+      height: 115px
+      display: flex
+      align-items: center
 
-  .slick-current
-    opacity: 1
-    transform: scale(1.2)
+    .slick-current
+      border: 5px solid $accent-color
+      box-shadow: 0 0 0 10px rgba(239, 150, 26, 0.5)
