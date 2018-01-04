@@ -10676,6 +10676,18 @@ button:focus {
 .gray-bg {
   background: #e7eff1; }
 
+.accent-bg {
+  background: #ef961a; }
+
+.accent-bg-second {
+  background: #3db6e7; }
+
+.accent-bg-third {
+  background: #40d53a; }
+
+.section-padding-b {
+  padding-bottom: 90px; }
+
 .about-us-section p {
   padding: 0 15px;
   max-width: 680px;
@@ -11244,6 +11256,16 @@ button:focus {
 .icon-career:before {
   background: url("../../../images/icon-career.png") 50% 50% no-repeat; }
 
+.icon-pricing-card:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  width: 15px;
+  height: 25px; }
+
+.icon-tick:before {
+  background: url("../../../images/icon-tick.png") 50% 50% no-repeat; }
+
 .link-industry {
   background: #3db6e7;
   display: block;
@@ -11513,6 +11535,52 @@ button:focus {
   left: 0;
   z-index: 5;
   cursor: pointer; }
+
+.pricing-card {
+  border: 1px solid #e1e9eb; }
+  .pricing-card-top {
+    padding: 30px 44px 16px; }
+    .pricing-card-top p {
+      color: #ffffff;
+      font: 400 13px/21px Montserrat, serif;
+      text-transform: uppercase;
+      letter-spacing: -1.8px;
+      margin-bottom: 10px; }
+    .pricing-card-top span {
+      font-size: 36px; }
+    .pricing-card-top h5 {
+      color: #fff;
+      opacity: .5; }
+  .pricing-card-bottom {
+    padding: 50px 45px 60px; }
+    .pricing-card-bottom ul {
+      min-height: 185px; }
+  .pricing-card-option {
+    position: relative;
+    padding-left: 30px; }
+    .pricing-card-option p {
+      margin: 6px; }
+  .pricing-card:hover {
+    -webkit-box-shadow: 0 0 50px #bbdce5;
+            box-shadow: 0 0 50px #bbdce5; }
+
+.faq-item {
+  cursor: pointer;
+  padding: 35px 0;
+  border-top: 1px solid red; }
+  .faq-item:first-child {
+    border-top: none; }
+  .faq-item .faq-title {
+    color: #343a3b;
+    font: 700 14px/24px Montserrat, serif;
+    text-transform: uppercase;
+    padding-bottom: 25px; }
+  .faq-item i {
+    float: right; }
+  .faq-item .faq-answer {
+    width: 70%;
+    padding-top: 15px;
+    margin: 0; }
 
 /* Large Devices, Wide Screens */
 @media only screen and (max-width: 1200px) {
@@ -11839,6 +11907,26 @@ button:focus {
 @media only screen and (max-width: 320px) {
   .form-contact-us, .form-new-jobs {
     padding-bottom: 30px; } }
+
+@media only screen and (max-width: 1200px) {
+  .pricing-card-bottom {
+    padding: 50px 35px 60px; } }
+
+@media only screen and (max-width: 992px) {
+  .pricing-card {
+    margin-bottom: 15px; } }
+
+@media only screen and (max-width: 768px) {
+  /**/ }
+
+@media only screen and (max-width: 576px) {
+  /**/ }
+
+@media only screen and (max-width: 480px) {
+  /**/ }
+
+@media only screen and (max-width: 320px) {
+  /**/ }
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width: 992px) {

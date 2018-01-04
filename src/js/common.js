@@ -117,4 +117,11 @@ $(function() {
     });
 
 
+    $('.faq-item').on('show.bs.collapse', function () {
+        $(this).find('i').addClass('fa-minus')
+    });
+    $('.faq-item').on('hide.bs.collapse', function () {
+        $(this).find('i').removeClass('fa-minus')
+    })
+
 });
