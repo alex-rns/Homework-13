@@ -11567,7 +11567,7 @@ button:focus {
 .faq-item {
   cursor: pointer;
   padding: 35px 0;
-  border-top: 1px solid red; }
+  border-top: 1px solid #e0e7e9; }
   .faq-item:first-child {
     border-top: none; }
   .faq-item .faq-title {
@@ -11577,10 +11577,14 @@ button:focus {
     padding-bottom: 25px; }
   .faq-item i {
     float: right; }
-  .faq-item .faq-answer {
-    width: 70%;
-    padding-top: 15px;
-    margin: 0; }
+
+.faq-answer {
+  width: 70%;
+  padding-top: 15px;
+  margin: 0; }
+
+.faq-section {
+  padding-bottom: 60px; }
 
 /* Large Devices, Wide Screens */
 @media only screen and (max-width: 1200px) {
@@ -11588,7 +11592,8 @@ button:focus {
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width: 992px) {
-  /**/ }
+  .section-padding-b {
+    padding-bottom: 70px; } }
 
 /* Small Devices, Tablets */
 @media only screen and (max-width: 768px) {
@@ -11600,7 +11605,9 @@ button:focus {
   .button-main {
     font-size: 12px; }
     .button-main-margin {
-      margin: 20px 0 55px; } }
+      margin: 20px 0 55px; }
+  .section-padding-b {
+    padding-bottom: 60px; } }
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width: 576px) {
@@ -11608,7 +11615,9 @@ button:focus {
     font-size: 24px;
     padding: 50px 0 25px; }
   .button-main-margin {
-    margin: 15px 0 50px; } }
+    margin: 15px 0 50px; }
+  .section-padding-b {
+    padding-bottom: 50px; } }
 
 /* Custom, iPhone Retina */
 @media only screen and (max-width: 480px) {
@@ -11617,6 +11626,8 @@ button:focus {
     padding: 40px 0 20px; }
   h5 {
     font-size: 15px; }
+  .section-padding-b {
+    padding-bottom: 30px; }
   .button-main-margin {
     margin: 15px 0 30px; } }
 
@@ -11625,7 +11636,9 @@ button:focus {
     font-size: 20px;
     padding: 30px 0 15px; }
   .button-main-margin {
-    margin: 15px 0 15px; } }
+    margin: 15px 0 15px; }
+  .section-padding-b {
+    padding-bottom: 20px; } }
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width: 992px) {
@@ -11924,6 +11937,33 @@ button:focus {
 
 @media only screen and (max-width: 480px) {
   /**/ }
+
+@media only screen and (max-width: 320px) {
+  /**/ }
+
+@media only screen and (max-width: 1200px) {
+  /**/ }
+
+@media only screen and (max-width: 992px) {
+  /**/ }
+
+@media only screen and (max-width: 768px) {
+  .faq-item {
+    padding: 25px 0; }
+  .faq-answer {
+    width: 100%; }
+  .faq-section {
+    padding-bottom: 50px; } }
+
+@media only screen and (max-width: 576px) {
+  .faq-item {
+    padding: 20px 0; }
+  .faq-section {
+    padding-bottom: 40px; } }
+
+@media only screen and (max-width: 480px) {
+  .faq-item {
+    padding: 15px 0; } }
 
 @media only screen and (max-width: 320px) {
   /**/ }

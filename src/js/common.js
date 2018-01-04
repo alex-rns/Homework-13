@@ -117,10 +117,14 @@ $(function() {
     });
 
 
-    $('.faq-item').on('show.bs.collapse', function () {
+    //FAQ accordion
+
+    var faqItem = $('.faq-item');
+
+    faqItem.on('show.bs.collapse', function () {
         $(this).find('i').addClass('fa-minus')
     });
-    $('.faq-item').on('hide.bs.collapse', function () {
+    faqItem.on('hide.bs.collapse', function () {
         $(this).find('i').removeClass('fa-minus')
     })
 
