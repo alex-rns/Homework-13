@@ -10659,6 +10659,12 @@ h5 {
   text-transform: uppercase;
   letter-spacing: -0.85px; }
 
+h6 {
+  color: #343a3b;
+  font: 700 14px/21px Montserrat, serif;
+  text-transform: uppercase;
+  letter-spacing: -0.7px; }
+
 p {
   color: #838b8c; }
 
@@ -11118,6 +11124,49 @@ button:focus {
     -webkit-box-shadow: 0 0 0 10px rgba(239, 150, 26, 0.5);
             box-shadow: 0 0 0 10px rgba(239, 150, 26, 0.5); }
 
+.blog-post-section h3 {
+  padding-bottom: 10px; }
+
+.blog-post-welcome {
+  position: relative;
+  margin-bottom: 60px; }
+
+.blog-post-text {
+  padding: 0 95px;
+  margin-bottom: 45px; }
+
+.blog-post-checked {
+  padding: 0 230px;
+  margin-bottom: 45px; }
+  .blog-post-checked p {
+    position: relative;
+    margin-bottom: 10px; }
+
+.blog-post-bottom {
+  margin-bottom: 50px; }
+  .blog-post-bottom p {
+    padding: 0 60px 0 30px; }
+
+.related-post-section {
+  border-top: 1px solid #e2e6e7;
+  padding: 30px 0 70px; }
+  .related-post-section h5 {
+    margin-bottom: 0; }
+
+.related-post-item {
+  padding-top: 10px; }
+  .related-post-item h6 {
+    margin: 25px 0 0; }
+  .related-post-item span {
+    font-size: 13px;
+    letter-spacing: -0.65px;
+    color: #ef961a;
+    text-transform: uppercase;
+    font-family: Montserrat, serif; }
+  .related-post-item:hover {
+    -webkit-box-shadow: 0 0 50px #bbdce5;
+            box-shadow: 0 0 50px #bbdce5; }
+
 .navbar {
   padding-top: 25px;
   left: 0;
@@ -11313,7 +11362,7 @@ button:focus {
 .icon-career:before {
   background: url("../../../images/icon-career.png") 50% 50% no-repeat; }
 
-.icon-pricing-card:before {
+.icon-pricing-card:before, .icon-checked:before {
   content: '';
   position: absolute;
   left: 0;
@@ -11355,6 +11404,9 @@ button:focus {
 
 .icon-quote-left:after {
   background: url("../../../images/icon-quote-right.png") 50% 50% no-repeat; }
+
+.icon-checked:before {
+  left: -35px; }
 
 .link-industry {
   background: #3db6e7;
@@ -11488,6 +11540,25 @@ button:focus {
 
 .button-industry {
   padding: 6px 17px; }
+
+.button-tag {
+  margin: 30px;
+  background: #40d53a;
+  color: #fff;
+  text-transform: uppercase;
+  padding: 0 15px;
+  position: absolute;
+  top: 0;
+  font: 400 13px/33px Montserrat, serif;
+  letter-spacing: 1.3px;
+  border: 1px #40d53a solid; }
+  .button-tag i {
+    font-size: 15px;
+    margin-left: 10px;
+    color: #000; }
+  .button-tag:hover {
+    background: inherit;
+    color: #40d53a; }
 
 .circle-for-logo {
   margin: 0 auto;
@@ -11702,16 +11773,91 @@ button:focus {
 .happy-clients-blockquote p {
   font: 400 13px/28px Domine, serif; }
 
-/* Large Devices, Wide Screens */
+.share {
+  display: inline-block;
+  padding-left: 150px;
+  position: relative;
+  -webkit-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  margin-bottom: 50px; }
+  .share-button-open {
+    z-index: 1;
+    cursor: pointer;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 44px;
+    height: 44px;
+    -webkit-border-radius: 50%;
+            border-radius: 50%;
+    border: 1px solid #d2dbdd; }
+    .share-button-open:hover {
+      background: #ef961a;
+      border: 1px solid #ef961a; }
+      .share-button-open:hover i {
+        color: #fff; }
+  .share:hover .share-social {
+    width: 150px;
+    left: 59px;
+    z-index: 2;
+    padding: 8px 37px 8px 26px;
+    visibility: visible;
+    border: 1px solid #d2dbdd; }
+    .share:hover .share-social i {
+      color: #838b8c; }
+  .share:hover .share-button-open {
+    background: #ef961a; }
+    .share:hover .share-button-open i {
+      color: #fff; }
+  .share-social {
+    z-index: -1;
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    width: 0;
+    height: 44px;
+    border: 1px solid #fff;
+    -webkit-border-radius: 25px;
+            border-radius: 25px;
+    left: 165px;
+    top: 0;
+    position: absolute;
+    padding: 8px 21px;
+    margin-bottom: 0;
+    overflow: hidden;
+    visibility: hidden; }
+    .share-social i {
+      color: #fff;
+      padding: 0 5px;
+      font-size: 16px; }
+    .share-social li .fa {
+      -webkit-transition: all 0.5s ease;
+      -o-transition: all 0.5s ease;
+      transition: all 0.5s ease; }
+    .share-social li .fa-facebook:hover {
+      color: #3b5998; }
+    .share-social li .fa-twitter:hover {
+      color: #00aced; }
+    .share-social li .fa-google-plus:hover {
+      color: #d34836; }
+
 @media only screen and (max-width: 1200px) {
   /**/ }
 
-/* Medium Devices, Desktops */
 @media only screen and (max-width: 992px) {
   .section-padding-b {
     padding-bottom: 70px; } }
 
-/* Small Devices, Tablets */
 @media only screen and (max-width: 768px) {
   h3 {
     font: 700 28px/30px Montserrat, serif;
@@ -11725,7 +11871,6 @@ button:focus {
   .section-padding-b {
     padding-bottom: 60px; } }
 
-/* Extra Small Devices, Phones */
 @media only screen and (max-width: 576px) {
   h3 {
     font-size: 24px;
@@ -11735,7 +11880,6 @@ button:focus {
   .section-padding-b {
     padding-bottom: 50px; } }
 
-/* Custom, iPhone Retina */
 @media only screen and (max-width: 480px) {
   h3 {
     font-size: 22px;
@@ -11756,21 +11900,18 @@ button:focus {
   .section-padding-b {
     padding-bottom: 20px; } }
 
-/* Medium Devices, Desktops */
 @media only screen and (max-width: 992px) {
   .welcome-info span {
     font-size: 40px; }
   .welcome-info h2 {
     font-size: 15px; } }
 
-/* Small Devices, Tablets */
 @media only screen and (max-width: 768px) {
   .welcome-info span {
     font-size: 36px; }
   .welcome-info h2 {
     font-size: 14px; } }
 
-/* Custom, iPhone Retina */
 @media only screen and (max-width: 480px) {
   .welcome-info span {
     font-size: 30px; }
@@ -11783,12 +11924,10 @@ button:focus {
   .welcome-info h2 {
     font-size: 11px; } }
 
-/* Medium Devices, Desktops */
 @media only screen and (max-width: 992px) {
   .link-industry {
     font-size: 16px; } }
 
-/* Large Devices, Wide Screens */
 @media only screen and (max-width: 1200px) {
   .navbar-nav {
     font-size: 13px;
@@ -11796,7 +11935,6 @@ button:focus {
   .dropdown-menu {
     font-size: 13px; } }
 
-/* Medium Devices, Desktops */
 @media only screen and (max-width: 992px) {
   .navbar-collapse {
     background: rgba(0, 0, 0, 0.5);
@@ -11814,12 +11952,10 @@ button:focus {
         -ms-flex-order: -1;
             order: -1; } }
 
-/* Small Devices, Tablets */
 @media only screen and (max-width: 768px) {
   .top-contacts .top-contacts-tel {
     font-size: 12px; } }
 
-/* Custom, iPhone Retina */
 @media only screen and (max-width: 480px) {
   .top-contacts {
     display: none; } }
@@ -11832,18 +11968,15 @@ button:focus {
     .about-carousel .slick-next {
       padding-left: 0; } }
 
-/* Medium Devices, Desktops */
 @media only screen and (max-width: 992px) {
   .about-carousel {
     margin-top: 30px;
     padding: 40px 0 15px; } }
 
-/* Large Devices, Wide Screens */
 @media only screen and (max-width: 1200px) {
   .middle-circle {
     margin-bottom: 70px; } }
 
-/* Medium Devices, Desktops */
 @media only screen and (max-width: 992px) {
   .middle-circle {
     margin-bottom: 90px; }
@@ -11851,7 +11984,6 @@ button:focus {
     width: 100px;
     height: 100px; } }
 
-/* Small Devices, Tablets */
 @media only screen and (max-width: 767px) {
   .middle-circle {
     display: none; }
@@ -11865,17 +11997,14 @@ button:focus {
   .boost-business p, .boost-business a {
     margin: 5px auto; } }
 
-/* Extra Small Devices, Phones */
 @media only screen and (max-width: 576px) {
   .our-features-section {
     padding: 0 15px; } }
 
-/* Large Devices, Wide Screens */
 @media only screen and (max-width: 1200px) {
   .middle-circle {
     margin-bottom: 70px; } }
 
-/* Medium Devices, Desktops */
 @media only screen and (max-width: 992px) {
   .middle-circle {
     margin-bottom: 90px; }
@@ -11883,7 +12012,6 @@ button:focus {
     width: 100px;
     height: 100px; } }
 
-/* Small Devices, Tablets */
 @media only screen and (max-width: 767px) {
   .middle-circle {
     display: none; }
@@ -11897,19 +12025,16 @@ button:focus {
   .boost-business p, .boost-business a {
     margin: 5px auto; } }
 
-/* Extra Small Devices, Phones */
 @media only screen and (max-width: 576px) {
   .our-features-section {
     padding: 0 15px; } }
 
-/* Large Devices, Wide Screens */
 @media only screen and (max-width: 1200px) {
   .project-slider-item img {
     max-height: 239px; }
   .project-carousel .slick-dots {
     bottom: 180px; } }
 
-/* Medium Devices, Desktops */
 @media only screen and (max-width: 992px) {
   .projects-wrapper {
     margin-bottom: 35px; }
@@ -11920,7 +12045,6 @@ button:focus {
     .project-carousel li button:before {
       width: 17px; } }
 
-/* Small Devices, Tablets */
 @media only screen and (max-width: 768px) {
   .projects-wrapper {
     margin-bottom: 20px; }
@@ -11931,12 +12055,10 @@ button:focus {
   .project-carousel li button:before {
     width: 16px; } }
 
-/* Extra Small Devices, Phones */
 @media only screen and (max-width: 576px) {
   .slick-dotted.slick-slider {
     margin-bottom: 15px; } }
 
-/* Custom, iPhone Retina */
 @media only screen and (max-width: 480px) {
   .projects-wrapper {
     margin-bottom: 10px; }
@@ -11951,12 +12073,10 @@ button:focus {
   .project-carousel .slick-dots {
     bottom: 260px; } }
 
-/* Large Devices, Wide Screens */
 @media only screen and (max-width: 1200px) {
   .quick-contact-section .quick-contact-block-wrap span {
     font-size: 14px; } }
 
-/* Medium Devices, Desktops */
 @media only screen and (max-width: 992px) {
   .quick-contact-block-info {
     display: none; }
@@ -11970,7 +12090,6 @@ button:focus {
         -ms-transform: translate(-50%, -50%);
             transform: translate(-50%, -50%); } }
 
-/* Extra Small Devices, Phones */
 @media only screen and (max-width: 576px) {
   .quick-contact-section {
     padding-bottom: 40px; }
@@ -11979,7 +12098,6 @@ button:focus {
   .icon-quick-contact:before {
     left: 80%; } }
 
-/* Large Devices, Wide Screens */
 @media only screen and (max-width: 1200px) {
   .industry-card {
     -webkit-box-orient: vertical;
@@ -11994,45 +12112,30 @@ button:focus {
     .industry-card-info {
       width: 100%; } }
 
-/* Medium Devices, Desktops */
 @media only screen and (max-width: 992px) {
   .industry-card-list {
     margin-bottom: 65px; } }
 
-/* Small Devices, Tablets */
 @media only screen and (max-width: 768px) {
   .industry-card-list {
     margin-bottom: 50px; } }
 
-/* Extra Small Devices, Phones */
 @media only screen and (max-width: 480px) {
   .industry-card-list {
     margin-bottom: 30px; } }
 
-/* Custom, iPhone Retina */
-@media only screen and (max-width: 320px) {
-  /**/ }
-
-/* Large Devices, Wide Screens */
-@media only screen and (max-width: 1200px) {
-  /**/ }
-
-/* Medium Devices, Desktops */
 @media only screen and (max-width: 992px) {
   .form-contact-us, .form-new-jobs {
     padding-bottom: 70px; } }
 
-/* Small Devices, Tablets */
 @media only screen and (max-width: 768px) {
   .form-contact-us, .form-new-jobs {
     padding-bottom: 50px; } }
 
-/* Extra Small Devices, Phones */
 @media only screen and (max-width: 480px) {
   .form-contact-us, .form-new-jobs {
     padding-bottom: 35px; } }
 
-/* Custom, iPhone Retina */
 @media only screen and (max-width: 320px) {
   .form-contact-us, .form-new-jobs {
     padding-bottom: 30px; } }
@@ -12044,24 +12147,6 @@ button:focus {
 @media only screen and (max-width: 992px) {
   .pricing-card {
     margin-bottom: 15px; } }
-
-@media only screen and (max-width: 768px) {
-  /**/ }
-
-@media only screen and (max-width: 576px) {
-  /**/ }
-
-@media only screen and (max-width: 480px) {
-  /**/ }
-
-@media only screen and (max-width: 320px) {
-  /**/ }
-
-@media only screen and (max-width: 1200px) {
-  /**/ }
-
-@media only screen and (max-width: 992px) {
-  /**/ }
 
 @media only screen and (max-width: 768px) {
   .faq-item {
@@ -12081,22 +12166,16 @@ button:focus {
   .faq-item {
     padding: 15px 0; } }
 
-@media only screen and (max-width: 320px) {
-  /**/ }
-
-/* Medium Devices, Desktops */
 @media only screen and (max-width: 992px) {
   .services-section h3 {
     padding-bottom: 45px; } }
 
-/* Small Devices, Tablets */
 @media only screen and (max-width: 768px) {
   .services-section h3 {
     padding-bottom: 40px; }
   .services-item {
     padding-bottom: 35px; } }
 
-/* Custom, iPhone Retina */
 @media only screen and (max-width: 480px) {
   .services-item {
     padding-bottom: 20px; } }
@@ -12111,7 +12190,6 @@ button:focus {
   .testimonials-section {
     padding-bottom: 40px; } }
 
-/* Extra Small Devices, Phones */
 @media only screen and (max-width: 576px) {
   .testimonials-section {
     padding-bottom: 30px; }
@@ -12119,7 +12197,6 @@ button:focus {
       width: 132px;
       height: 112px; } }
 
-/* Custom, iPhone Retina */
 @media only screen and (max-width: 480px) {
   .testimonials-section {
     padding-bottom: 10px; }
@@ -12135,21 +12212,18 @@ button:focus {
     width: 40px;
     height: 40px; } }
 
-/* Large Devices, Wide Screens */
 @media only screen and (max-width: 1200px) {
   .our-blog-card:hover .our-blog-card-wrap {
     width: 58%; }
   .our-blog-card:hover .our-blog-slide-img {
     width: 42%; } }
 
-/* Medium Devices, Desktops */
 @media only screen and (max-width: 992px) {
   .our-blog-card {
     margin-bottom: 30px; }
     .our-blog-card:last-child {
       margin-bottom: 0; } }
 
-/* Medium Devices, Desktops */
 @media only screen and (max-width: 992px) {
   .button-footer-subscribe {
     width: 100%;
@@ -12163,7 +12237,6 @@ button:focus {
   .main-footer-copyright {
     font-size: 14px; } }
 
-/* Small Devices, Tablets */
 @media only screen and (max-width: 768px) {
   .main-footer {
     text-align: center; }
@@ -12187,7 +12260,6 @@ button:focus {
           -ms-flex-pack: center;
               justify-content: center; } }
 
-/* Extra Small Devices, Phones */
 @media only screen and (max-width: 576px) {
   .main-footer-bottom {
     padding-bottom: 20px; }
@@ -12196,13 +12268,10 @@ button:focus {
   .main-footer-social {
     margin-top: 15px; } }
 
-/* Custom, iPhone Retina */
 @media only screen and (max-width: 480px) {
   .main-footer-top {
     padding: 40px 0 45px; } }
 
-/* Medium Devices, Desktops */
-/* Small Devices, Tablets */
 @media only screen and (max-width: 768px) {
   .about-us-page-content h3 {
     text-align: center;
@@ -12210,7 +12279,6 @@ button:focus {
   .about-us-page-card {
     padding: 60px 0; } }
 
-/* Custom, iPhone Retina */
 @media only screen and (max-width: 480px) {
   .about-us-page-content {
     padding-bottom: 60px; }
@@ -12223,39 +12291,16 @@ button:focus {
   .about-us-page-card {
     padding: 20px 0; } }
 
-/* Large Devices, Wide Screens */
-@media only screen and (max-width: 1200px) {
-  /**/ }
-
-/* Medium Devices, Desktops */
-@media only screen and (max-width: 992px) {
-  /**/ }
-
-/* Small Devices, Tablets */
 @media only screen and (max-width: 768px) {
   .map {
     padding-top: 30px; }
   .connect-us-section {
     margin-bottom: 30px; } }
 
-/* Extra Small Devices, Phones */
-@media only screen and (max-width: 480px) {
-  /**/ }
-
-/* Custom, iPhone Retina */
-@media only screen and (max-width: 320px) {
-  /**/ }
-
-/* Large Devices, Wide Screens */
-@media only screen and (max-width: 1200px) {
-  /**/ }
-
-/* Medium Devices, Desktops */
 @media only screen and (max-width: 992px) {
   .new-jobs-item .button-main {
     padding: 6px 18px; } }
 
-/* Small Devices, Tablets */
 @media only screen and (max-width: 768px) {
   .new-jobs-item .button-main {
     margin-top: 15px; } }
@@ -12269,12 +12314,6 @@ button:focus {
 @media only screen and (max-width: 480px) {
   .new-jobs-item button {
     margin-left: 15px; } }
-
-@media only screen and (max-width: 320px) {
-  /**/ }
-
-@media only screen and (max-width: 1200px) {
-  /**/ }
 
 @media only screen and (max-width: 992px) {
   .testimonials-carousel {
