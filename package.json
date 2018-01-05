@@ -36,5 +36,8 @@
     "gulp-uglify": "^3.0.0",
     "simple-line-icons": "^2.4.1",
     "slick-carousel": "^1.8.1"
+  },
+  "dependencies": {
+    "masonry-layout": "^4.2.1"
   }
 }
