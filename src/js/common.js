@@ -145,6 +145,16 @@ $(function() {
     });
     faqItem.on('hide.bs.collapse', function () {
         $(this).find('i').removeClass('fa-minus')
-    })
+    });
+
+
+    //MASONRY
+
+
+    $('.blog-gallery').masonry({
+        // options
+        itemSelector: '.blog-post-item'
+    });
+
 
 });

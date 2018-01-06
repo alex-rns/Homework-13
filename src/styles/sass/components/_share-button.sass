@@ -36,6 +36,7 @@
         background: $accent-color
         i
           color: #fff
+
   &-social
     z-index: -1
     transition: $transition
@@ -55,6 +56,7 @@
       color: #fff
       padding: 0 5px
       font-size: 16px
+
     li
       .fa
         transition: $transition
@@ -70,3 +72,29 @@
       .fa-google-plus
         &:hover
           color: #d34836
+
+  &-blog-card
+    .share-button-open
+      border: none
+      i
+        color: #343a3b
+        font-weight: 700
+    &-accent-bg
+      .share-button-open
+        i
+          color: #fff
+      .share-social
+        li
+          .fa
+            color: #fff
+          .fa-facebook
+            &:hover
+              color: #3b5998
+
+          .fa-twitter
+            &:hover
+              color: #00aced
+
+          .fa-google-plus
+            &:hover
+              color: #d34836
