@@ -153,7 +153,7 @@ $(function() {
 
     $('.blog-gallery').masonry({
         // options
-        itemSelector: '.blog-post-item'
+        itemSelector: '.blog-item'
     });
 
 

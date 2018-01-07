@@ -11932,6 +11932,9 @@ button:focus {
     position: relative;
     padding: 10px 20px 0 30px; }
 
+.blog-gallery {
+  margin-bottom: 45px; }
+
 .blog-card {
   border: 1px solid #ededef;
   margin-bottom: 30px; }
@@ -11974,6 +11977,38 @@ button:focus {
       color: #fff; }
     .blog-card-img-cover .blog-card-text .share-button-open i {
       color: #fff; }
+
+.blog-pagination {
+  margin-bottom: 80px; }
+  .blog-pagination .page-item {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+    margin: 0 10px; }
+  .blog-pagination .page-link {
+    width: 55px;
+    -webkit-border-radius: 50%;
+            border-radius: 50%;
+    border: 2px solid #97aaaf;
+    color: #343a3b;
+    font: 700 18px/34px Montserrat, serif; }
+  .blog-pagination .page-item:last-child .page-link, .blog-pagination .page-item:first-child .page-link {
+    -webkit-border-radius: 50%;
+            border-radius: 50%; }
+  .blog-pagination .page-item.active .page-link, .blog-pagination .page-item:hover .page-link {
+    background: inherit;
+    color: inherit;
+    border-color: #ef961a; }
 
 @media only screen and (max-width: 1200px) {
   /**/ }
@@ -12596,3 +12631,33 @@ button:focus {
 
 @media only screen and (max-width: 320px) {
   /**/ }
+
+@media only screen and (max-width: 992px) {
+  .blog-pagination {
+    margin-bottom: 70px; }
+  .blog-gallery {
+    margin-bottom: 35px; } }
+
+@media only screen and (max-width: 768px) {
+  .blog-pagination {
+    margin-bottom: 60px; }
+  .blog-gallery {
+    margin-bottom: 30px; } }
+
+@media only screen and (max-width: 576px) {
+  .blog-pagination {
+    margin-bottom: 50px; }
+  .blog-gallery {
+    margin-bottom: 25px; } }
+
+@media only screen and (max-width: 480px) {
+  .blog-pagination {
+    margin-bottom: 40px; }
+  .blog-gallery {
+    margin-bottom: 20px; } }
+
+@media only screen and (max-width: 320px) {
+  .blog-pagination {
+    margin-bottom: 30px; }
+  .blog-gallery {
+    margin-bottom: 10px; } }

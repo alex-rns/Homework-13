@@ -1,0 +1,25 @@
+.blog-pagination
+  margin-bottom: 80px
+
+  .page
+    &-item
+      display: flex
+      justify-content: center
+      align-items: center
+      text-align: center
+      margin: 0 10px
+
+    &-link
+      width: 55px
+      border-radius: 50%
+      border: 2px solid #97aaaf
+      color: #343a3b
+      font: 700 18px/34px Montserrat, serif
+
+  .page-item:last-child .page-link, .page-item:first-child .page-link
+    border-radius: 50%
+
+  .page-item.active .page-link, .page-item:hover .page-link
+    background: inherit
+    color: inherit
+    border-color: $accent-color
