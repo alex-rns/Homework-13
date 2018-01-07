@@ -1,0 +1,31 @@
+.error-section
+  h2
+    display: none
+
+.error
+  &-not-found-section
+    padding: 90px 0
+
+  &-number
+
+    p
+      font: 700 270px/33px Montserrat, serif
+      color: $accent-color-second
+      letter-spacing: -13.5px
+
+  &-help
+    border-left: 1px solid #d0e6ec
+    padding-left: 85px
+
+    h3
+      padding: 150px 0 0
+      &:before
+        content: ''
+        background: url("../../../images/icon-404.png")
+        width: 76px
+        height: 76px
+        position: absolute
+        top: 60px
+
+    p
+      font-size: 20px

@@ -1,10 +1,9 @@
 $(function() {
 
-    //CAROUSELS
-
     //WELCOME-CAROUSEL
 
 	$('#welcomeCarousel').slick({
+        autoplay: true,
         arrows: false,
         dots: true,
         infinite: true,
@@ -41,7 +40,7 @@ $(function() {
     //ABOUT US CAROUSEL
 
 	$('#aboutCarousel').slick({
-        // autoplay: true,
+        autoplay: true,
         arrows: true,
         infinite: true,
         slidesToShow: 5,
@@ -127,6 +126,9 @@ $(function() {
     });
 
 
+    //END CAROUSELS
+
+
 	//Bootstrap dropdown on hover
 
     $('.dropdown').hover(function() {
@@ -147,14 +149,17 @@ $(function() {
         $(this).find('i').removeClass('fa-minus')
     });
 
-
     //MASONRY
 
-
     $('.blog-gallery').masonry({
-        // options
         itemSelector: '.blog-item'
     });
 
+
+    //DEADLINK
+
+    $('a[href="#"], button').on('click', function (event) {
+        event.preventDefault();
+    })
 
 });
