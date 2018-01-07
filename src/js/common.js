@@ -82,6 +82,7 @@ $(function() {
     //PROJECT CAROUSEL
 
     $('#projectCarousel').slick({
+        autoplay: true,
         arrows: false,
         dots: true,
         infinite: true
