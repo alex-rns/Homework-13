@@ -12086,7 +12086,17 @@ button:focus {
     padding: 0 27px;
     font-size: 10px; }
     .button-main-margin {
-      margin: 15px 0 30px; } }
+      margin: 15px 0 30px; }
+  .main-footer-form input::-webkit-input-placeholder {
+    font-size: 10px; }
+  .main-footer-form input::-moz-placeholder {
+    font-size: 10px; }
+  .main-footer-form input:-ms-input-placeholder {
+    font-size: 10px; }
+  .main-footer-form input::-ms-input-placeholder {
+    font-size: 10px; }
+  .main-footer-form input::placeholder {
+    font-size: 10px; } }
 
 @media only screen and (max-width: 320px) {
   body {
