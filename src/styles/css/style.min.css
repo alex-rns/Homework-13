@@ -1,7 +1,4 @@
 @charset "UTF-8";
-/*---------------------------------------------------------------------------------- */
-/*------------------------------RESET DEFAULT STYLES-------------------------------- */
-/*---------------------------------------------------------------------------------- */
 html {
   width: 100%;
   height: 100%; }
@@ -10745,13 +10742,13 @@ button:focus {
   padding: 70px 25px 0; }
 
 .icon-business-consultation:hover:before {
-  background: url("../../../images/icon-business-consultation-active.png") 50% 50% no-repeat; }
+  background: url("../../images/icon-business-consultation-active.png") 50% 50% no-repeat; }
 
 .icon-boost-local-business:hover:before {
-  background: url("../../../images/icon-boost-local-business-active.png") 50% 50% no-repeat; }
+  background: url("../../images/icon-boost-local-business-active.png") 50% 50% no-repeat; }
 
 .icon-accounting:hover:before {
-  background: url("../../../images/icon-accounting-active.png") 50% 50% no-repeat; }
+  background: url("../../images/icon-accounting-active.png") 50% 50% no-repeat; }
 
 .testimonials-section {
   padding-bottom: 70px;
@@ -10767,7 +10764,7 @@ button:focus {
     .testimonials-section .container:before {
       z-index: 0;
       content: '';
-      background: url("../../../images/quote-big-icon.png");
+      background: url("../../images/quote-big-icon.png");
       -webkit-background-size: cover;
               background-size: cover;
       position: absolute;
@@ -10793,7 +10790,7 @@ button:focus {
               transform: translateX(-50%); }
     .testimonials-section .blockquote-text:after {
       content: '';
-      background: url("../../../images/quote-icon.png");
+      background: url("../../images/quote-icon.png");
       position: absolute;
       right: 0;
       bottom: 0;
@@ -11068,7 +11065,7 @@ button:focus {
   letter-spacing: 1.3px; }
 
 .testimonials-page-carousel-section {
-  background: url("../../../images/testimonials-bg.png") 20% 0 no-repeat;
+  background: url("../../images/testimonials-bg.png") 20% 0 no-repeat;
   -webkit-background-size: cover;
           background-size: cover; }
 
@@ -11220,7 +11217,7 @@ button:focus {
     padding: 150px 0 0; }
     .error-help h3:before {
       content: '';
-      background: url("../../../images/icon-404.png");
+      background: url("../../images/icon-404.png");
       width: 76px;
       height: 76px;
       position: absolute;
@@ -11307,7 +11304,7 @@ button:focus {
   background: #ef961a; }
 
 .banner {
-  background: url("../../../images/banner.png") 50% 0 no-repeat;
+  background: url("../../images/banner.png") 50% 0 no-repeat;
   -webkit-background-size: cover;
           background-size: cover;
   position: relative;
@@ -11332,7 +11329,7 @@ button:focus {
   z-index: -1; }
 
 .banner-bg:after {
-  background: url("../../../images/top-rectangle.png") no-repeat;
+  background: url("../../images/top-rectangle.png") no-repeat;
   top: 0;
   bottom: 0;
   left: 0;
@@ -11354,16 +11351,16 @@ button:focus {
   height: 60px; }
 
 .icon-education {
-  background: url("../../../images/icon-education.png") 50% 50% no-repeat; }
+  background: url("../../images/icon-education.png") 50% 50% no-repeat; }
 
 .icon-business {
-  background: url("../../../images/icon-business.png") 50% 50% no-repeat; }
+  background: url("../../images/icon-business.png") 50% 50% no-repeat; }
 
 .icon-technology {
-  background: url("../../../images/icon-technology.png") 50% 50% no-repeat; }
+  background: url("../../images/icon-technology.png") 50% 50% no-repeat; }
 
 .icon-banking {
-  background: url("../../../images/icon-banking.png") 50% 50% no-repeat; }
+  background: url("../../images/icon-banking.png") 50% 50% no-repeat; }
 
 .icon-features:before {
   content: "";
@@ -11379,16 +11376,16 @@ button:focus {
   left: 0; }
 
 .icon-features-support:before {
-  background: url("../../../images/icon-support.png") 50% 50% no-repeat; }
+  background: url("../../images/icon-support.png") 50% 50% no-repeat; }
 
 .icon-features-security:before {
-  background: url("../../../images/icon-security.png") 50% 50% no-repeat; }
+  background: url("../../images/icon-security.png") 50% 50% no-repeat; }
 
 .icon-features-business-boosting:before {
-  background: url("../../../images/icon-business-boosting.png") 50% 50% no-repeat; }
+  background: url("../../images/icon-business-boosting.png") 50% 50% no-repeat; }
 
 .icon-features-creative-process:before {
-  background: url("../../../images/icon-creative-process.png") 50% 50% no-repeat; }
+  background: url("../../images/icon-creative-process.png") 50% 50% no-repeat; }
 
 .icon-services:before {
   content: "";
@@ -11398,13 +11395,13 @@ button:focus {
   top: 0; }
 
 .icon-business-consultation:before {
-  background: url("../../../images/icon-business-consultation.png") 50% 50% no-repeat; }
+  background: url("../../images/icon-business-consultation.png") 50% 50% no-repeat; }
 
 .icon-boost-local-business:before {
-  background: url("../../../images/icon-boost-local-business.png") 50% 50% no-repeat; }
+  background: url("../../images/icon-boost-local-business.png") 50% 50% no-repeat; }
 
 .icon-accounting:before {
-  background: url("../../../images/icon-accounting.png") 50% 50% no-repeat; }
+  background: url("../../images/icon-accounting.png") 50% 50% no-repeat; }
 
 .icon-quick-contact:before {
   content: "";
@@ -11418,13 +11415,13 @@ button:focus {
           transform: translateY(-50%); }
 
 .icon-email:before {
-  background: url("../../../images/icon-email.png") 50% 50% no-repeat; }
+  background: url("../../images/icon-email.png") 50% 50% no-repeat; }
 
 .icon-call-us:before {
-  background: url("../../../images/icon-call.png") 50% 50% no-repeat; }
+  background: url("../../images/icon-call.png") 50% 50% no-repeat; }
 
 .icon-career:before {
-  background: url("../../../images/icon-career.png") 50% 50% no-repeat; }
+  background: url("../../images/icon-career.png") 50% 50% no-repeat; }
 
 .icon-pricing-card:before, .icon-checked:before {
   content: '';
@@ -11434,7 +11431,7 @@ button:focus {
   height: 25px; }
 
 .icon-tick:before {
-  background: url("../../../images/icon-tick.png") 50% 50% no-repeat; }
+  background: url("../../images/icon-tick.png") 50% 50% no-repeat; }
 
 .icon-happy-clients:after {
   content: '';
@@ -11445,7 +11442,7 @@ button:focus {
   height: 13px; }
 
 .icon-quote:after {
-  background: url("../../../images/icon-quote.png") 50% 50% no-repeat; }
+  background: url("../../images/icon-quote.png") 50% 50% no-repeat; }
 
 .icon-testimonials-left:before {
   content: '';
@@ -11464,10 +11461,10 @@ button:focus {
   height: 31px; }
 
 .icon-quote-left:before {
-  background: url("../../../images/icon-quote-left.png") 50% 50% no-repeat; }
+  background: url("../../images/icon-quote-left.png") 50% 50% no-repeat; }
 
 .icon-quote-left:after {
-  background: url("../../../images/icon-quote-right.png") 50% 50% no-repeat; }
+  background: url("../../images/icon-quote-right.png") 50% 50% no-repeat; }
 
 .icon-checked:before {
   left: -35px; }
@@ -11536,13 +11533,13 @@ button:focus {
   .about-carousel .slick-next {
     padding-left: 5px; }
   .about-carousel .slick-prev:hover:before, .about-carousel .slick-prev:focus:before {
-    content: url("../../../images/carousel-arrow-left-active.png"); }
+    content: url("../../images/carousel-arrow-left-active.png"); }
   .about-carousel .slick-next:hover:before, .about-carousel .slick-next:focus:before {
-    content: url("../../../images/carousel-arrow-right-active.png"); }
+    content: url("../../images/carousel-arrow-right-active.png"); }
   .about-carousel .slick-prev:before {
-    content: url("../../../images/carousel-arrow-left.png"); }
+    content: url("../../images/carousel-arrow-left.png"); }
   .about-carousel .slick-next:before {
-    content: url("../../../images/carousel-arrow-right.png"); }
+    content: url("../../images/carousel-arrow-right.png"); }
 
 .project-carousel .slick-dots {
   width: 100px;
@@ -11615,6 +11612,7 @@ button:focus {
   padding: 0 15px;
   position: absolute;
   top: 0;
+  left: 0;
   font: 400 13px/33px Montserrat, serif;
   letter-spacing: 1.3px;
   border: 1px #40d53a solid; }
@@ -11971,7 +11969,8 @@ button:focus {
   .blog-card p {
     margin-bottom: 35px; }
   .blog-card-bottom {
-    margin-bottom: 35px; }
+    margin-bottom: 35px;
+    text-align: right; }
   .blog-card:hover {
     -webkit-box-shadow: 0 0 50px #bbdce5;
             box-shadow: 0 0 50px #bbdce5; }
@@ -12035,9 +12034,6 @@ button:focus {
     background: inherit;
     color: inherit;
     border-color: #ef961a; }
-
-@media only screen and (max-width: 1200px) {
-  /**/ }
 
 @media only screen and (max-width: 992px) {
   .section-padding-b {
@@ -12181,15 +12177,6 @@ button:focus {
   .about-carousel {
     margin-top: 0;
     padding: 40px 0 15px; } }
-
-@media only screen and (max-width: 768px) {
-  /**/ }
-
-@media only screen and (max-width: 576px) {
-  /**/ }
-
-@media only screen and (max-width: 480px) {
-  /**/ }
 
 @media only screen and (max-width: 1200px) {
   .middle-circle {
@@ -12400,12 +12387,10 @@ button:focus {
   .services-item {
     padding-bottom: 20px; } }
 
-/* Medium Devices, Desktops */
 @media only screen and (max-width: 992px) {
   .testimonials-section {
     padding-bottom: 60px; } }
 
-/* Small Devices, Tablets */
 @media only screen and (max-width: 768px) {
   .testimonials-section {
     padding-bottom: 40px; } }
@@ -12582,9 +12567,6 @@ button:focus {
       width: 40px;
       height: 40px; } }
 
-@media only screen and (max-width: 1200px) {
-  /**/ }
-
 @media only screen and (max-width: 992px) {
   .blog-post-text {
     padding: 0 55px;
@@ -12635,21 +12617,6 @@ button:focus {
   .blog-post-share .share {
     margin-bottom: 10px; } }
 
-@media only screen and (max-width: 480px) {
-  /**/ }
-
-@media only screen and (max-width: 320px) {
-  /**/ }
-
-@media only screen and (max-width: 1200px) {
-  /**/ }
-
-@media only screen and (max-width: 992px) {
-  /**/ }
-
-@media only screen and (max-width: 768px) {
-  /**/ }
-
 @media only screen and (max-width: 576px) {
   .related-post-section {
     padding: 30px 0; } }
@@ -12658,12 +12625,6 @@ button:focus {
   .related-post-section {
     padding: 10px 0; } }
 
-@media only screen and (max-width: 320px) {
-  /**/ }
-
-@media only screen and (max-width: 1200px) {
-  /**/ }
-
 @media only screen and (max-width: 992px) {
   .feedback-section:before, .feedback-section:after {
     display: none; }
@@ -12671,12 +12632,6 @@ button:focus {
     background: #fbf5ef; }
   .feedback-section {
     background: #e7eff1; } }
-
-@media only screen and (max-width: 768px) {
-  /**/ }
-
-@media only screen and (max-width: 576px) {
-  /**/ }
 
 @media only screen and (max-width: 480px) {
   .comment:nth-child(even) {
@@ -12688,8 +12643,9 @@ button:focus {
     top: auto;
     right: auto; } }
 
-@media only screen and (max-width: 320px) {
-  /**/ }
+@media only screen and (max-width: 1200px) {
+  .blog-card-bottom {
+    margin-bottom: 10px; } }
 
 @media only screen and (max-width: 992px) {
   .blog-pagination {
@@ -12704,12 +12660,18 @@ button:focus {
     margin-bottom: 30px; } }
 
 @media only screen and (max-width: 576px) {
+  .blog-card-img-cover .blog-card-text {
+    left: 100px; }
+  .blog-card-bottom {
+    text-align: center; }
   .blog-pagination {
     margin-bottom: 50px; }
   .blog-gallery {
     margin-bottom: 25px; } }
 
 @media only screen and (max-width: 480px) {
+  .blog-card-img-cover .blog-card-text {
+    left: 60px; }
   .blog-pagination {
     margin-bottom: 40px; }
   .blog-gallery {
